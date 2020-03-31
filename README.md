@@ -3,9 +3,12 @@
 Ejemplo 
 
 
-#Clase 2 Cartografía
+# Clase 2 Cartografía
 
-##¿Qué hice?
+## ¿Qué hice?
 
-###¿Qué es esto?
+No sé.
 
+### ¿Qué es esto?
+
+Tampoco. 
