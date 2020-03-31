@@ -12,3 +12,9 @@ No sé.
 ### ¿Qué es esto?
 
 Tampoco. 
+
+**tampoco**
+_tampoco_
+
+Inline-style: 
+![alt text](https://cdn.ticbeat.com/src/uploads/2019/08/cara-gato.jpg "Gato")
