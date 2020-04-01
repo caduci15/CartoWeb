@@ -16,8 +16,8 @@ Tampoco.
 **tampoco**
 _tampoco_
 
-Inline-style: 
+Gato estándar: 
 ![alt text](https://cdn.ticbeat.com/src/uploads/2019/08/cara-gato.jpg "Gato")
 
-Inline-style: 
+Gato no estándar: 
 ![alt text](gata.jpg "Gata")
