@@ -18,3 +18,6 @@ _tampoco_
 
 Inline-style: 
 ![alt text](https://cdn.ticbeat.com/src/uploads/2019/08/cara-gato.jpg "Gato")
+
+Inline-style: 
+![alt text](gata.jpg "Gata")
