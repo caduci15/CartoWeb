@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        #map {
+            width: 901px;
+            height: 456px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/Categoria_Departamentos_0.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[-5.287806276403677,-87.43927851485176],[13.459030697524023,-50.317237899078634]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        function pop_Categoria_Departamentos_0(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['OBJECTID'] !== null ? Autolinker.link(feature.properties['OBJECTID'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Leng'] !== null ? Autolinker.link(feature.properties['Shape_Leng'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Area'] !== null ? Autolinker.link(feature.properties['Shape_Area'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Dane'] !== null ? Autolinker.link(feature.properties['Dane'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2"><strong>Departamen</strong><br />' + (feature.properties['Departamen'] !== null ? Autolinker.link(feature.properties['Departamen'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Ano2011'] !== null ? Autolinker.link(feature.properties['Ano2011'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Ano2012'] !== null ? Autolinker.link(feature.properties['Ano2012'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Ano2013'] !== null ? Autolinker.link(feature.properties['Ano2013'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Ano2014'] !== null ? Autolinker.link(feature.properties['Ano2014'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Categoria_Departamentos_0_0(feature) {
+            switch(String(feature.properties['Departamen'])) {
+                default:
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(38,200,71,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Amazonas':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(177,140,233,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Antioquia':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(17,87,236,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Arauca':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(168,91,162,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'AtlÃ¡ntico':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(154,90,86,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'BogotÃ¡ D.C.':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(221,104,157,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'BolÃ­var':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(239,94,167,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'BoyacÃ¡':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(243,241,101,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'CÃ³rdoba':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(213,107,20,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Caldas':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(188,101,191,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'CaquetÃ¡':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(97,200,126,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Casanare':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(221,98,166,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Cauca':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(32,135,41,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Cesar':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(85,71,210,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'ChocÃ³':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,237,152,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Cundinamarca':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(169,115,33,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'GuainÃ­a':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(50,20,149,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Guaviare':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(238,116,94,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Huila':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(147,80,81,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'La Guajira':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(229,123,101,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Magdalena':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(29,179,224,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Meta':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(25,40,201,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'NariÃ±o':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,36,39,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Norte de Santander':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(156,68,80,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Putumayo':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(157,66,122,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'QuindÃ­o':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(156,44,91,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Risaralda':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(54,53,152,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'San AndrÃ©s y Providencia':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(54,233,242,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Santander':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(39,170,174,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Sucre':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(54,69,232,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Tolima':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(86,115,145,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Valle del Cauca':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(72,185,102,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'VaupÃ©s':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(101,75,154,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Vichada':
+                    return {
+                pane: 'pane_Categoria_Departamentos_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(131,68,111,1.0)',
+                interactive: true,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Categoria_Departamentos_0');
+        map.getPane('pane_Categoria_Departamentos_0').style.zIndex = 400;
+        map.getPane('pane_Categoria_Departamentos_0').style['mix-blend-mode'] = 'normal';
+        var layer_Categoria_Departamentos_0 = new L.geoJson(json_Categoria_Departamentos_0, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Categoria_Departamentos_0',
+            layerName: 'layer_Categoria_Departamentos_0',
+            pane: 'pane_Categoria_Departamentos_0',
+            onEachFeature: pop_Categoria_Departamentos_0,
+            style: style_Categoria_Departamentos_0_0,
+        });
+        bounds_group.addLayer(layer_Categoria_Departamentos_0);
+        map.addLayer(layer_Categoria_Departamentos_0);
+        setBounds();
+        </script>
+    </body>
+</html>
