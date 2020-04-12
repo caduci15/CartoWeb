@@ -20,8 +20,8 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
  
  
-Puntos amar: 
-![alt text](puntosamar.png =100x200)
+
+![alt text](puntosamar.png "Amar")
  
  
  
