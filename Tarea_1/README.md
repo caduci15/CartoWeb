@@ -24,12 +24,12 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 <img src="clip.png"/> 
 
-<img src="seleccion.png" alt="seleccion" width="700"/> 
-<img src="kernela.png" alt="kernela" width="1000"/> 
-<img src="kernelb.png" alt="kernelb" width="1000"/>
-<img src="kernelc.png" alt="kernelc" width="1000"/> 
-<img src="kerneld.png" alt="kerneld" width="1000"/>  
-<img src="kernele.png" alt="kernele" width="1000"/> 
+<img src="seleccion.png" alt="seleccion" width="200"/> 
+<img src="kernela.png" alt="kernela" width="200"/> 
+<img src="kernelb.png" alt="kernelb" width="200"/>
+<img src="kernelc.png" alt="kernelc" width="200"/> 
+<img src="kerneld.png" alt="kerneld" width="200"/>  
+<img src="kernele.png" alt="kernele" width="200"/> 
 
 <img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
 
@@ -45,7 +45,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 <img src="densidadbogota.png" alt="densidadbogota.png" width="400"/>
 
-<img src="estratoa.png" alt="estratoa" width="400"/> 
+<img src="estratoa.png" alt="estratoa.png" width="400"/>
 
 <img src="estratob.png" alt="estratob" width="400"/> 
 
