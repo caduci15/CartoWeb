@@ -19,7 +19,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
  
-<img src="clip.png" alt="clip" width="700"/> 
+<img src="clip.png"/> 
 <img src="seleccion.png" alt="seleccion" width="700"/> 
 <img src="kernela.png" alt="kernela" width="1000"/> 
 <img src="kernelb.png" alt="kernelb" width="1000"/>
@@ -27,23 +27,23 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 <img src="kerneld.png" alt="kerneld" width="1000"/>  
 <img src="kernele.png" alt="kernele" width="1000"/> 
 
-<img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="700"/>
+<img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
 
-<img src="proteger.png" alt="proteger.png" width="1000"/>
+<img src="proteger.png" alt="proteger.png" width="400"/>
 
-<img src="forjar.png" alt="forjar.png" width="1000"/>
+<img src="forjar.png" alt="forjar.png" width="400"/>
 
-<img src="puntosamar.png" alt="puntosamar" width="1000"/>
+<img src="puntosamar.png" alt="puntosamar" width="400"/>
 
-<img src="atencionsocialfocalizada.png" alt="atencionsocialfocalizada.png" width="1000"/>
+<img src="atencionsocialfocalizada.png" alt="atencionsocialfocalizada.png" width="400"/>
 
-<img src="puntosatencionsocial.png" alt="puntosatencionsocial.png" width="1000"/>
+<img src="puntosatencionsocial.png" alt="puntosatencionsocial.png" width="400"/>
 
-<img src="densidadbogota.png" alt="densidadbogota.png" width="1000"/>
+<img src="densidadbogota.png" alt="densidadbogota.png" width="400"/>
 
-<img src="estratoa.png" alt="estratoa" width="1000"/> 
+<img src="estratoa.png" alt="estratoa" width="400"/> 
 
-<img src="estratob.png" alt="estratob" width="1000"/> 
+<img src="estratob.png" alt="estratob" width="400"/> 
 
 
 
