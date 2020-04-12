@@ -17,6 +17,13 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 ## 4.	Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.
 
+Atributibamente hablando los conjuntos de datos tienen el mismo estándar, están confgurados para mostrar horarios de atención, dirección, teléfono, localización y sector catastral en el que se encuentra. 
+
+La fuente de datos proviene de IDECA, a continuación se lista la fuente de datos y se enuncia el enlace donde se encuentra disponible. 
+
+
+
+
 | Insumo       | Descripción          | Fuente  |
 | -------------|:-------------:| -----:  |
 | Manzanas Bogotá| Conoce las unidades geográficas tipo manzana las cuales se les asocia la variable de estrato socioeconómico, siendo esta, la clasificación de los inmuebles residenciales que deben recibir servicios públicos. Se realiza principalmente para cobrar de manera diferencial por estratos los servicios públicos domiciliarios, permitiendo asignar subsidios y cobrar contribuciones. | https://www.ideca.gov.co/recursos/mapas/      
@@ -26,11 +33,11 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 | Centros Forjar | Espacio donde se presta servicio especializado de atención integral con enfoque de derechos diferencial a los adolescentes y jóvenes mayores de 14 años vinculados al sistema de Responsabilidad Penal para Adolescentes (SRPA) sancionados con Prestación de Servicios a la Comunidad y Libertad Asistida/ Vigilada y el apoyo para la Administración de Justicia en el Proceso Administrativo de Restablecimiento de Derechos - PARD, a través de la implementación de una propuesta educativa, protectora y restaurativa cuyo propósito es la garantía y restablecimiento de sus derechos y promociona la corresponsabilidad de las familias.    |   https://www.ideca.gov.co/recursos/mapas/centro-forjar-bogota-dc    |
 | Atención social Víctimas de violencia intrafamiliar | Servicio en el que se busca la adecuada, oportuna, eficaz garantía, protección y restablecimiento de los derechos de las personas involucradas en conductas atentatorias de la Armonía y la Unidad Familiar.   |    https://www.ideca.gov.co/recursos/mapas/atencion-victimas-violencia-intrafamiliar-cavif-bogota-dc  |
 | Localidades Bogotá | División del territorio Distrital, teniendo en cuenta las características sociales de sus habitantes y de acuerdo al reparto de competencias y funciones administrativas asignadas por el Concejo Distrital.    |    https://www.ideca.gov.co/recursos/mapas/localidad-bogota-dc
+
+
 *Descripciones tomadas de conjunto de Datos IDECA 
 
-Atributibamente hablando los conjuntos de datos tienen el mismo estándar, están confgurados para mostrar horarios de atención, dirección, teléfono, localización y sector catastral en el que se encuentra. 
 
-La fuente de datos proviene de IDECA. 
 
 
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
