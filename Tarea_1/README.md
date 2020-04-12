@@ -21,7 +21,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
  
  
 
-![alt text](puntosamar.png "Amar")
+![](./pic/puntosamar.png =100x20)
  
  
  
