@@ -17,24 +17,21 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 ## 4.	Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.
 
-| Insumo                                            | Tipo          | Fuente  |
-| -------------                                      |:-------------:| -----:  |
-| Manzanas Bogotá                                         | right-aligned | https://www.ideca.gov.co/recursos/mapas/      
+| Insumo       | Tipo          | Fuente  |
+| -------------|:-------------:| -----:  |
+| Manzanas Bogotá| Shape | https://www.ideca.gov.co/recursos/mapas/      
 manzana-estratificacion-bogota-dc  |
-| Centros Proteger | right-aligned     |     |
-| Centros Creciendo en Familia                                     | are neat     |    $1   |
-| Centros Amar                                     | are neat     |    $1   |
-| Centros Forjar                                     | are neat     |    $1   |
-| Atención social Víctimas de violencia intrafamiliar | are neat     |    $1   |
-| Localidades Bogotá | are neat     |    $1   |
+| Centros Proteger | shape     |  https://www.ideca.gov.co/recursos/mapas/centro-proteger-bogota-dc   |
+| Centros Creciendo en Familia| shape   |    https://www.ideca.gov.co/recursos/mapas/creciendo-en-familia-bogota-dc |
+| Centros Amar| shape     |   https://www.ideca.gov.co/recursos/mapas/centro-amar-bogota-dc  |
+| Centros Forjar | shape    |   https://www.ideca.gov.co/recursos/mapas/centro-forjar-bogota-dc    |
+| Atención social Víctimas de violencia intrafamiliar | shape     |    https://www.ideca.gov.co/recursos/mapas/atencion-victimas-violencia-intrafamiliar-cavif-bogota-dc  |
+| Localidades Bogotá | shape     |    https://www.ideca.gov.co/recursos/mapas/localidad-bogota-dc
+  |
 
+Atributibamente hablando los conjuntos de datos tienen el mismo estándar, están confgurados para mostrar horarios de atención, dirección, teléfono, localización y sector catastral en el que se encuentra. 
 
-Centros Proteger https://www.ideca.gov.co/recursos/mapas/centro-proteger-bogota-dc
-Centros Amar https://www.ideca.gov.co/recursos/mapas/centro-amar-bogota-dc
-Centros Creciendo en Familia https://www.ideca.gov.co/recursos/mapas/creciendo-en-familia-bogota-dc
-Centros Forjar https://www.ideca.gov.co/recursos/mapas/centro-forjar-bogota-dc 
-Atención social Víctimas de violencia intrafamiliar https://www.ideca.gov.co/recursos/mapas/atencion-victimas-violencia-intrafamiliar-cavif-bogota-dc
-Localidades Bogotá https://www.ideca.gov.co/recursos/mapas/localidad-bogota-dc
+La fuente de daros proviene de IDECA. 
 
 
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
