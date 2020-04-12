@@ -45,9 +45,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 <img src="densidadbogota.png" alt="densidadbogota.png" width="400"/>
 
-<img src="estratoa.png" alt="estratoa.png" width="400"/>
-
-<img src="estratob.png" alt="estratob" width="400"/> 
+<img src="ea.png" alt="ea.png" width="400"/>
 
 
 
