@@ -21,7 +21,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
  
  
 
-<img src="puntosamar.png" alt="puntosamar" width="1000"/>
+<img src="11.puntosamar.png" alt="11.puntosamar" width="1000"/>
  
  
  
@@ -37,6 +37,8 @@ Finalmente se utiliza una capa que contiene todos los centros de atención y se 
 
 ## 7.	Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas: Qgiscloud , leaflet, QGIS2Web , Github Pages, kepler.gl, flourish, etc.
 Se utilizaron varias herramientas, utilicé en un principio QGIS2web para la publicación de los puntos de atención; utilicé además GitHub para la realización de cargue de datos y Colorbrewer para la asociación de la gama de colores idónea para la realización de las salidas gráficas.
+
+https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown/21972032#21972032
 
 ## 8.	Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta Tarea_1/html/
 
