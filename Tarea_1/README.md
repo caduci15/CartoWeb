@@ -20,9 +20,8 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
  
 
-![alt text](clip.png "clip")
 
-<img src="clip.png"/> 
+<img src="clip.png" alt="clip" width="100"/> 
 
 <img src="seleccion.png" alt="seleccion" width="200"/> 
 <img src="kernela.png" alt="kernela" width="200"/> 
@@ -47,7 +46,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 <img src="ea.png" alt="ea.png" width="400"/>
 
-tttttttt
+
 
 
 
