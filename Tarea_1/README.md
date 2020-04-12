@@ -21,7 +21,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
  
  
 Puntos amar: 
-![alt text](puntosamar.png "Amar"<width="100" height="100")
+![alt text](puntosamar.png =100x200)
  
  
  
