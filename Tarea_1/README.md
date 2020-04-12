@@ -21,8 +21,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
  
  
 
-![](./pic/puntosamar.png =100x20)
- 
+<img src="puntosamar.png" alt="puntosamar" width="200"/>
  
  
  
