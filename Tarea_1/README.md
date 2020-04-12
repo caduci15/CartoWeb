@@ -51,7 +51,7 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
 <img src="kernelb.png" alt="kernelb" width="200"/>
 <img src="kernelc.png" alt="kernelc" width="200"/> 
 <img src="kerneld.png" alt="kerneld" width="200"/>  
-<img src="kernele.png" alt="kernele" width="200"/> 
+<img src="kernelultimo.png" alt="kernelultimo" width="200"/> 
 
 <img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
 
