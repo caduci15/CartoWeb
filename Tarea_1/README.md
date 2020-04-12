@@ -21,7 +21,7 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
  
  
 
-<img src="11.puntosamar.png" alt="11.puntosamar" width="1000"/>
+<img src="11puntosamar.png" alt="11puntosamar" width="1000"/>
  
  
  
