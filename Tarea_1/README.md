@@ -17,6 +17,12 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 ## 4.	Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
  
 
@@ -73,6 +79,11 @@ https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown/219
 
 ## 8.	Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta Tarea_1/html/
 
+
+
 ## 9.	Urls de los mapas publicados en la web
 
+
+
 ## 10.	Conclusiones Ventajas / desventajas / dificultades encontradas durante el desarrollo del ejercicio
+
