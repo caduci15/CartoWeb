@@ -17,21 +17,20 @@ La solución que se plantea es recopilar los datos disponibles en el repositorio
 
 ## 4.	Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.
 
-| Insumo       | Tipo          | Fuente  |
+| Insumo       | Descripción          | Fuente  |
 | -------------|:-------------:| -----:  |
 | Manzanas Bogotá| Shape | https://www.ideca.gov.co/recursos/mapas/      
-manzana-estratificacion-bogota-dc  |
 | Centros Proteger | shape     |  https://www.ideca.gov.co/recursos/mapas/centro-proteger-bogota-dc   |
 | Centros Creciendo en Familia| shape   |    https://www.ideca.gov.co/recursos/mapas/creciendo-en-familia-bogota-dc |
 | Centros Amar| shape     |   https://www.ideca.gov.co/recursos/mapas/centro-amar-bogota-dc  |
 | Centros Forjar | shape    |   https://www.ideca.gov.co/recursos/mapas/centro-forjar-bogota-dc    |
 | Atención social Víctimas de violencia intrafamiliar | shape     |    https://www.ideca.gov.co/recursos/mapas/atencion-victimas-violencia-intrafamiliar-cavif-bogota-dc  |
-| Localidades Bogotá | shape     |    https://www.ideca.gov.co/recursos/mapas/localidad-bogota-dc
-  |
+| Localidades Bogotá | División del territorio Distrital, teniendo en cuenta las características sociales de sus habitantes y de acuerdo al reparto de competencias y funciones administrativas asignadas por el Concejo Distrital.    |    https://www.ideca.gov.co/recursos/mapas/localidad-bogota-dc
+|*Descripciones tomadas de conjunto de Datos IDECA | 
 
 Atributibamente hablando los conjuntos de datos tienen el mismo estándar, están confgurados para mostrar horarios de atención, dirección, teléfono, localización y sector catastral en el que se encuentra. 
 
-La fuente de daros proviene de IDECA. 
+La fuente de datos proviene de IDECA. 
 
 
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
