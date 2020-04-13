@@ -52,10 +52,10 @@ Posteriormente se realizó una selección de localidades por intersección con m
 
 Se procede a realizar una densidad de tipo kernel con los datos en cuestión como se muestra a continuación: 
 
-<img src="kernela.png" alt="kernela" width="200"/> 
-<img src="kernelb.png" alt="kernelb" width="200"/>
-<img src="kernelc.png" alt="kernelc" width="200"/> 
-<img src="kerneld.png" alt="kerneld" width="200"/>  
+<img src="kernela.png" alt="kernela" width="400"/> 
+<img src="kernelb.png" alt="kernelb" width="4000"/>
+<img src="kernelc.png" alt="kernelc" width="400"/> 
+<img src="kerneld.png" alt="kerneld" width="400"/>  
 
 Finalmente se generan mapas de clústeres sobre los que se puede evidenciar si la población o no está siendo atendida como sigue: 
 
