@@ -106,7 +106,7 @@ https://github.com/caduci15/clase_carto1/tree/master/Tarea_1/html
 
 ## 10.	Conclusiones Ventajas / desventajas / dificultades encontradas durante el desarrollo del ejercicio
 
-##Conclusiones: 
+## Conclusiones: 
 
 Con los datos empleados surgen una considerable serie de preguntas sobre los focos sobre los que se centra la atención del DPS, no están encaminados en absoluto a donde deberían ir, por lo que debería repensarse si realmente se están focalizando las ayudas hacia donde debería ser. 
 
