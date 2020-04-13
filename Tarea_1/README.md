@@ -77,9 +77,9 @@ Finalmente se realizó una validación de los puntos que eran objeto de la zona 
 
 Se pudo evidenciar que no se suplen las necesidades donde deberían ser atendidas en principio. 
 
-<img src="ea.png" alt="estratoa.png" width="400"/>
+<img src="estratoa.png" alt="estratoa.png" width="400"/>
 
-<img src="eb.png" alt="estratob.png" width="400"/>
+<img src="estratob.png" alt="estratob.png" width="400"/>
  
 
 ## 6.	Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)
