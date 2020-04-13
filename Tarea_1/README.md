@@ -42,16 +42,22 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
 
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
  
-
+Lo primero que se realizó fue un clip a los estratos que no cumplían con el objeto de estudio. 
 
 <img src="clip.png" alt="clip" width="100"/> 
 
+Posteriormente se realizó una selección de localidades por intersección con manzanas objeto de estudio. 
+
 <img src="seleccion.png" alt="seleccion" width="200"/> 
+
+Se procede a realizar una densidad de tipo kernel con los datos en cuestión como se muestra a continuación: 
+
 <img src="kernela.png" alt="kernela" width="200"/> 
 <img src="kernelb.png" alt="kernelb" width="200"/>
 <img src="kernelc.png" alt="kernelc" width="200"/> 
 <img src="kerneld.png" alt="kerneld" width="200"/>  
-<img src="kernelultimo.png" alt="kernelultimo" width="200"/> 
+
+Finalmente se generan mapas de clústeres sobre los que se puede evidenciar si la población o no está siendo atendida como sigue: 
 
 <img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
 
@@ -63,23 +69,17 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
 
 <img src="atencionsocialfocalizada.png" alt="atencionsocialfocalizada.png" width="400"/>
 
+Finalmente se realizó una validación de los puntos que eran objeto de la zona de estudio y su distribución espacial por la ciudad. 
+
 <img src="puntosatencionsocial.png" alt="puntosatencionsocial.png" width="400"/>
 
 <img src="densidadbogota.png" alt="densidadbogota.png" width="400"/>
 
+Se pudo evidenciar que no se suplen las necesidades donde deberían ser atendidas en principio. 
+
 <img src="ea.png" alt="ea.png" width="400"/>
 
-
-
-
-
-
-
-
- 
- 
- 
- 
+<img src="eb.png" alt="eb.png" width="400"/>
  
 
 ## 6.	Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)
@@ -96,11 +96,25 @@ https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown/219
 
 ## 8.	Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta Tarea_1/html/
 
+https://github.com/caduci15/clase_carto1/tree/master/Tarea_1/html
 
 
 ## 9.	Urls de los mapas publicados en la web
 
 
 
+
 ## 10.	Conclusiones Ventajas / desventajas / dificultades encontradas durante el desarrollo del ejercicio
+
+##Conclusiones: 
+
+Con los datos empleados surgen una considerable serie de preguntas sobre los focos sobre los que se centra la atención del DPS, no están encaminados en absoluto a donde deberían ir, por lo que debería repensarse si realmente se están focalizando las ayudas hacia donde debería ser. 
+
+Con los datos en general: todos, el foco inicial del ejercicio era usar los datos contenidos en https://www.datos.gov.co/, donde al filtrar por campos con geometrías, existían una cantidad considerable, pero al intentar llevarlos a algún formato útil para el ejercicio (como por ejemplo un Json, GeojSon, SHP, incluso un CSV y hacerle una posterior geocodificación), no fue posible. Una buena cantidad de datos ahí suministrados no tienen la completitud necesaria para ser utilizados. 
+
+Con las herramientas, surgen varios interrogantes, el primero es el tamaño máximo que permite cargar QGIS2Web, se intentó realizar un cargue de las manzanas objeto de estudio, y aunque se atendió la premisa de clase de tamaño, no permitió por superar la cantidad de unidades posibles para analizar. 
+
+Se entiende de antemano que Qgis2web no es funcional para datos ráster, para ello se pensó usar Geoserver pero los tiempos no se ajustaron a dicha solución para poder mostrar los resultados del estudio. 
+Con el cargue de imágenes, del mismo modo, hubo inconvenientes, no logré identificar cuál era el criterio para permitir el cargue de unas sí y otras no, al hacerle una inspección a los elementos por la página web, dice que no se encuentran cargados, pero al validar la existencia de los mismos en el repositorio de GitHub, está, por lo que no entendí nunca qué fue lo qye sucedió. 
+
 
