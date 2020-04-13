@@ -44,7 +44,7 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
  
 Lo primero que se realizó fue un clip a los estratos que no cumplían con el objeto de estudio. 
 
-<img src="clip.png" alt="clip" width="100"/> 
+<img src="clip.png" alt="clip" width="300"/> 
 
 Posteriormente se realizó una selección de localidades por intersección con manzanas objeto de estudio. 
 
@@ -53,7 +53,7 @@ Posteriormente se realizó una selección de localidades por intersección con m
 Se procede a realizar una densidad de tipo kernel con los datos en cuestión como se muestra a continuación: 
 
 <img src="kernela.png" alt="kernela" width="400"/> 
-<img src="kernelb.png" alt="kernelb" width="4000"/>
+<img src="kernelb.png" alt="kernelb" width="400"/>
 <img src="kernelc.png" alt="kernelc" width="400"/> 
 <img src="kerneld.png" alt="kerneld" width="400"/>  
 
@@ -77,9 +77,9 @@ Finalmente se realizó una validación de los puntos que eran objeto de la zona 
 
 Se pudo evidenciar que no se suplen las necesidades donde deberían ser atendidas en principio. 
 
-<img src="ea.png" alt="ea.png" width="400"/>
+<img src="ea.png" alt="estratoa.png" width="400"/>
 
-<img src="eb.png" alt="eb.png" width="400"/>
+<img src="eb.png" alt="estratob.png" width="400"/>
  
 
 ## 6.	Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)
@@ -96,12 +96,12 @@ https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown/219
 
 ## 8.	Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta Tarea_1/html/
 
-https://github.com/caduci15/clase_carto1/tree/master/Tarea_1/html
+https://github.com/caduci15/CartoWeb/tree/master/Tarea_1
 
 
 ## 9.	Urls de los mapas publicados en la web
 
-
+https://caduci15.github.io/CartoWeb/Tarea_1/mapa/index.html
 
 
 ## 10.	Conclusiones Ventajas / desventajas / dificultades encontradas durante el desarrollo del ejercicio
