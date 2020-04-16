@@ -46,7 +46,7 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
  
 Se debió separar el análisis de dos partes, de las cuales una se realizó con procesos manuales y la otra se realizó con un geproceso que se describe a continuación: 
 
-<img src="modelo.png" alt="modelo" width="600"/> 
+<img src="modelo.png" alt="modelo" width="900"/> 
 
 Se procede a realizar una densidad de tipo kernel con los datos en cuestión como se muestra a continuación: 
 
