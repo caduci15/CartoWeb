@@ -2,8 +2,8 @@
 
 ## 1.	¿Cuál es el problema a tratar?
 
-Bogotá es la ciudad de Colombia que más población acoge en todo el país por diferentes razones, entre ellas, la principal es que, al ser la capital, es el lugar donde más confluyen dinámicas económicas y por ende si se realiza una discriminación de aporte de puntos al PIB por región, Bogotá lleva la delantera; se estima con cifras que el PIB total del país a 2018 ascendía a 985.931, de los cuales 252.511 provenían de la ciudad. *Medido en miles de pesos. 
-Así mismo, al ser una ciudad con una dinámica voraz, necesita políticas eficientes para todos sus habitantes, de los cuales el 5,9% corresponde a población en situación de pobreza extrema; y el 12.4% se encuentra en índices de pobreza tasable pero no con índices de NBI apropiados. Esto, llevado a porcentajes, en suma, indica que el 18,3% de la población en Bogotá requiere atención social permanentemente. 
+Bogotá es la ciudad de Colombia que más población acoge en todo el país por diferentes razones, entre ellas, la principal es que, al ser la capital, es el lugar donde más confluyen dinámicas económicas y por ende si se realiza una discriminación de aporte de puntos al PIB por región, Bogotá lleva la delantera; se estima con cifras que el PIB total del país a 2018 ascendía a 985.931, de los cuales 252.511 provenían de la ciudad. *(Medido en miles de pesos). 
+Así mismo, al ser una ciudad con una dinámica voraz, necesita políticas eficientes para todos sus habitantes, de los cuales el 5,9%* corresponde a población en situación de pobreza extrema; y el 12.4%* se encuentra en índices de pobreza tasable pero no con índices de NBI apropiados. Esto, llevado a porcentajes, en suma, indica que el 18,3%* de la población en Bogotá requiere atención social permanentemente. 
 
 La Alcaldía, consciente de la situación de la población en mención ha puesto en marcha una serie de programas inclusivos que trabajan con población en situación de vulnerabilidad; sin embargo, para un ciudadano que recorra la cuidad a diario parecería no ser suficiente porque constantemente se evidencian las mismas situaciones; esto, se debe más a falta de socialización con los programas existentes y al conocimiento de cada uno, es decir a la masificación de la difusión de información. 
 _______________________________________________________________________________________________________________________________________________________________________
@@ -11,7 +11,7 @@ ________________________________________________________________________________
 
 ## 2.	¿Por qué los datos geográficos ayudan a resolverlo?
 
-Pareciera casi un dogma que los estratos sociales menos favorecidos son los que más atención social requieren; por tanto, se debería realizar un análisis proporcional a la cantidad de infraestructura disponible para la atención de eventos por zona en función del estrato; además de la cercanía entre un punto de atención y el otro para determinar qué tan útil resulta esto y cuáles zonas quedan desatendidas por la lejanía de centros de atención. 
+Pareciera casi un dogma que los estratos sociales menos favorecidos son los que más atención social requieren; por tanto, si se realiza un análisis proporcional a la cantidad de infraestructura disponible para la atención de eventos por zona en función del estrato; además de la cercanía entre un punto de atención y el otro, se puede determinar qué tan útil resulta la infraestructura disponible y cuáles zonas quedan desatendidas por la lejanía de centros de atención. 
 
 ## 3.	Descripción de la solución propuesta.
 
@@ -37,20 +37,16 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
 | Localidades Bogotá | División del territorio Distrital, teniendo en cuenta las características sociales de sus habitantes y de acuerdo al reparto de competencias y funciones administrativas asignadas por el Concejo Distrital.    |    https://www.ideca.gov.co/recursos/mapas/localidad-bogota-dc
 
 
-*Descripciones tomadas de conjunto de Datos IDECA 
+*Descripciones tomadas de conjunto de Datos IDECA. Fuente IDECA Bogotá. 
 
 
 
 
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
  
-Lo primero que se realizó fue un clip a los estratos que no cumplían con el objeto de estudio. 
+Se debió separar el análisis de dos partes, de las cuales una se realizó con procesos manuales y la otra se realizó con un geproceso que se describe a continuación: 
 
-<img src="clip.png" alt="clip" width="300"/> 
-
-Posteriormente se realizó una selección de localidades por intersección con manzanas objeto de estudio. 
-
-<img src="seleccion.png" alt="seleccion" width="200"/> 
+<img src="modelo.png" alt="modelo" width="400"/> 
 
 Se procede a realizar una densidad de tipo kernel con los datos en cuestión como se muestra a continuación: 
 
