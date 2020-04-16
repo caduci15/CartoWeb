@@ -44,53 +44,88 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
 
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
  
-Se debió separar el análisis de dos partes, de las cuales una se realizó con procesos manuales y la otra se realizó con un geproceso que se describe a continuación: 
+Se debió separar el análisis de dos partes, de las cuales una se realizó con procesos manuales y la otra se realizó con un geoproceso que se describe a continuación: 
 
 <img src="modelo.png" alt="modelo" width="900"/> 
+Figura 1. Fuente: Propia. 
 
-Se procede a realizar una densidad de tipo kernel con los datos en cuestión como se muestra a continuación: 
+En este modelo se explica la depuración de la información y el cruce que se hizo para realizar las validaciones posteriores spbre las densidades de infraestructura existente. 
+
+El modelo se divide en dos partes, una contiene los datos de entrada y una selección por categorización de estrato en cada localidad de Bogotá. 
+
+Acto seguido, se unifican los centros de atención recopilados en IDECA en una sola gdb y se procede a utilizar dicha información para depurarse por localidad. Esto con el fin de tener un resultado final por localidad de las manzanas objeto de estudio y poder determinar cuáles reciben o no la atención de infraestructura suficiente. 
+
+Para determinar dicha suficiente se utiliza un modelo de densidad puntual sobre una superficie, para ello se utiliza una densidad de tipo kernel con los datos en cuestión como se muestra a continuación: 
 
 <img src="kernela.png" alt="kernela" width="400"/> 
+Figura 2. Fuente: Propia. 
 <img src="kernelb.png" alt="kernelb" width="400"/>
+Figura 3. Fuente: Propia. 
 <img src="kernelc.png" alt="kernelc" width="400"/> 
+Figura 4. Fuente: Propia. 
 <img src="kerneld.png" alt="kerneld" width="400"/>  
+Figura 5. Fuente: Propia. 
 
 Finalmente se generan mapas de clústeres sobre los que se puede evidenciar si la población o no está siendo atendida como sigue: 
 
 <img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
 
+Figura 6. Fuente: Propia. 
+
 <img src="proteger.png" alt="proteger.png" width="400"/>
+Figura 7. Fuente: Propia. 
 
 <img src="forjar.png" alt="forjar.png" width="400"/>
+Figura 8. Fuente: Propia. 
 
 <img src="puntosamar.png" alt="puntosamar" width="400"/>
+Figura 9. Fuente: Propia. 
 
 <img src="atencionsocialfocalizada.png" alt="atencionsocialfocalizada.png" width="400"/>
+Figura 10. Fuente: Propia. 
 
 Finalmente se realizó una validación de los puntos que eran objeto de la zona de estudio y su distribución espacial por la ciudad. 
 
 <img src="puntosatencionsocial.png" alt="puntosatencionsocial.png" width="400"/>
+Figura 11. Fuente: Propia. 
 
 <img src="densidadbogota.png" alt="densidadbogota.png" width="400"/>
+Figura 12. Fuente: Propia. 
 
 Se pudo evidenciar que no se suplen las necesidades donde deberían ser atendidas en principio. 
 
 <img src="estratoa.png" alt="estratoa.png" width="400"/>
+Figura 13. Fuente: Propia. 
 
 <img src="estratob.png" alt="estratob.png" width="400"/>
- 
+Figura 14. Fuente: Propia. 
+
+También, se debió generar una salida por cada localidad con su respectiva cantidad de manzanas inatendidas. Al realizar las validaciones sobre el ejercicio, se evidencia que no se pueden realizar publicaciones de archivos ráster de una manera rápida, por lo que se procede a realizar un buffer que sería el análogo a las validaciones de clústeres o densidades de tipo vector, para lo que se usan áreas de 5.000m2 que equivalen a lo que debería recorrer una persona diariamente por trayecto para ejercitarse. (10.000ml en total). 
+
+Este análisis se propone bajo el supuesto de buscar que las personas puedan ser atendidas sin tener que incurrir en gastos de transporte debido a su condición de vulnerabilidad por localidad y manzana. (Mismos resultados evidenciados en el geoproceso de la figura 1.), con lo cual se evidencian los siguientes resultados: 
+
 
 ## 6.	Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)
 
-Se realizó inicialmente una depuración de los estratos con un clip, en donde se seleccionaron los estratos 1 y 2 como foco de trabajo. 
+Se realizó trabajo partido en dos segmentos, uno con análisis ráster y otro realizando una serie de geoprocesos citados en la figura 1. 
+
 Posteriormente se seleccionaron los centros de atención que realizan trabajo social sobre la población y se generó una densidad de tipo kernel para saber cuáles de esas poblaciones están desatendidas, y se realiza el mismo procedimiento con cada centro de atención. 
-Después de tener identificados los clústeres de trabajo, se cruza la información con un overlap sobre las manzanas objeto de estudio. 
-Finalmente se utiliza una capa que contiene todos los centros de atención y se realiza el mismo análisis de clúster para validar la misma variable en conjunto sobre la ciudad
+
+Finalmente se utiliza una capa que contiene todos los centros de atención (producto de la figura 1) y se realiza el mismo análisis de clúster con salidas tipo vector para validar la misma variable en conjunto sobre la ciudad
 
 ## 7.	Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas: Qgiscloud , leaflet, QGIS2Web , Github Pages, kepler.gl, flourish, etc.
-Se utilizaron varias herramientas, utilicé en un principio QGIS2web para la publicación de los puntos de atención; utilicé además GitHub para la realización de cargue de datos y Colorbrewer para la asociación de la gama de colores idónea para la realización de las salidas gráficas.
 
-https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown/21972032#21972032
+Se utilizaron varias herramientas, utilicé en un principio QGIS2web para la publicación de los puntos de atención, y los buffer sobre cada localidad. 
+
+Utilicé además GitHub para la realización de cargue de datos y Colorbrewer para la asociación de la gama de colores idónea para la realización de las salidas gráficas.
+
+Utilicé además la referencia citada en la tabla para poder realizar un cargue de imágenes con tamaño detemrinado, el cual se consultó en el sigueinte enlace. 
+
+| Insumo       | Descripción          | Fuente  |
+| -------------|:-------------:| -----:  |
+| StackOver para cambiar tamaño de imágenes|Resources disponibles para el cambio de tamaño en la resolución que ocupa una imagen en la pantalla| https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown/21972032#21972032 |
+
+
 
 ## 8.	Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta Tarea_1/html/
 
@@ -106,13 +141,21 @@ https://caduci15.github.io/CartoWeb/Tarea_1/mapa/index.html
 
 ## Conclusiones: 
 
+Del ejercicio en general: 
+
+En primera instancia, los datos que iban a ser utilizados para este ejercicio no eran de fuente IDECA, el primer ejercicio se pensó en dos focos, uno, en el sector educación y otro en la población en condición de calle. Absolutamente todos los datos tenían origen o bien en el portal de datos del DANE, o en la página oficial de datos de la Nación (https://www.datos.gov.co/), de lo cual se concluye que es un ejercicio demasiado desgastante, los portales de datos en Colombia aún tienen un camino larguísimo por recorrer en lo que a interoperabilidad refiere, el primer acercamiento fue al portal de datos abiertos del DANE (http://anda.dane.gov.co/index.php/catalog/MICRODATOS/about), y no hubo respuesta positiva, los datos se pueden descargar únicamnete en extensión .SAV, al hacer una validación sobre ese tipo de extensiones, se encontró que son nativas de SPSS y no son de fácil lectura sin software especializado, no existe ninguna extensión que permita la consulta de los datos abiertamente y menos hacerle operaciones espaciales. Posteriormente se hizo un acercamiento sobre el Geoportal propiamente para validar la descarga de datos en formato geográfico, sin éxito alguno, únicamente están publicados los datos básicos de límites administrativos y ninguna de las encuestas que realiza la institución. 
+
+Se realizó una consulta posterior al portal de Datos de la Nación, donde el acercamiento tampoco fue amigable, se realizó un filtro sobre datos que pudieran ser utilizables con geometrías y se validaron los posibles formatos de exporte, donde únicamente se habilita la opción de CSV, no en formato Geojson, un Json, Shp, Gepackage, pese a que los datos en teoría eran "espaciales". Se intentó descargar un CSV y realizar geocodificación pero sucedían dos fenómenos, por un lado, las geocodificaciones que se podían realizar en software Opensource como Google permitían un límite de datos que no alcanzaba a ser el universo de estudio planeado previamente, y por otro lado, al intentar espacializarlo, de igual modo para a posterior realizar uniones y cortes sobre los datos y depurar, se encontró que las bases de datos publicadas no contaban con dos parámetros: uno de metacalidad donde se validara la integridad de los datos (los campos estaban cruzados unos con otros para geocodificar por dirección y localidad, por ejemplo) y con un metadato que explícase de modo puntual qué indicaba cada variable para saber cómo realizar una depuración consciente de los datos. De ahí se pudo inferir que a los portales de datos abiertos existentes en el país les hace falta un camino fuerte de integración de tecnologías espaciales y de implantación de normas ISO de calidad de datos (análogo a las NTC 5043 y 4611 para datos geográficos). 
+
+
 Con los datos empleados surgen una considerable serie de preguntas sobre los focos sobre los que se centra la atención del DPS, no están encaminados en absoluto a donde deberían ir, por lo que debería repensarse si realmente se están focalizando las ayudas hacia donde debería ser. 
 
-Con los datos en general: todos, el foco inicial del ejercicio era usar los datos contenidos en https://www.datos.gov.co/, donde al filtrar por campos con geometrías, existían una cantidad considerable, pero al intentar llevarlos a algún formato útil para el ejercicio (como por ejemplo un Json, GeojSon, SHP, incluso un CSV y hacerle una posterior geocodificación), no fue posible. Una buena cantidad de datos ahí suministrados no tienen la completitud necesaria para ser utilizados. 
-
-Con las herramientas, surgen varios interrogantes, el primero es el tamaño máximo que permite cargar QGIS2Web, se intentó realizar un cargue de las manzanas objeto de estudio, y aunque se atendió la premisa de clase de tamaño, no permitió por superar la cantidad de unidades posibles para analizar. 
+Con las herramientas, surgen varios interrogantes, el primero es el tamaño máximo que permite cargar QGIS2Web, se intentó realizar un cargue de las manzanas objeto de estudio, y aunque se atendió la premisa de clase de tamaño, no permitió por superar la cantidad de unidades posibles para analizar, por lo que en algún punto se replanteó el modelo para mostrarse por localidad y no en general. 
 
 Se entiende de antemano que Qgis2web no es funcional para datos ráster, para ello se pensó usar Geoserver pero los tiempos no se ajustaron a dicha solución para poder mostrar los resultados del estudio. 
-Con el cargue de imágenes, del mismo modo, hubo inconvenientes, no logré identificar cuál era el criterio para permitir el cargue de unas sí y otras no, al hacerle una inspección a los elementos por la página web, dice que no se encuentran cargados, pero al validar la existencia de los mismos en el repositorio de GitHub, está, por lo que no entendí nunca qué fue lo qye sucedió. 
+
+Del estudio puntualmente: 
+
+
 
 
