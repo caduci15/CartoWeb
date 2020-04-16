@@ -2,10 +2,12 @@
 
 ## 1.	¿Cuál es el problema a tratar?
 
-Bogotá es la ciudad de Colombia que más población acoge en todo el país, por diferentes razones, entre ellas, la principal es que, al ser la capital es el lugar donde más confluyen dinámicas económicas y por ende si se realiza una discriminación de aporte de puntos al PIB por región, Bogotá lleva la delantera; se estima con cifras que el PIB total del país a 2018 ascendía a 985.931, de los cuales 252.511 provenían de la ciudad. *Medido en miles de pesos. 
+Bogotá es la ciudad de Colombia que más población acoge en todo el país por diferentes razones, entre ellas, la principal es que, al ser la capital, es el lugar donde más confluyen dinámicas económicas y por ende si se realiza una discriminación de aporte de puntos al PIB por región, Bogotá lleva la delantera; se estima con cifras que el PIB total del país a 2018 ascendía a 985.931, de los cuales 252.511 provenían de la ciudad. *Medido en miles de pesos. 
 Así mismo, al ser una ciudad con una dinámica voraz, necesita políticas eficientes para todos sus habitantes, de los cuales el 5,9% corresponde a población en situación de pobreza extrema; y el 12.4% se encuentra en índices de pobreza tasable pero no con índices de NBI apropiados. Esto, llevado a porcentajes, en suma, indica que el 18,3% de la población en Bogotá requiere atención social permanentemente. 
 
 La Alcaldía, consciente de la situación de la población en mención ha puesto en marcha una serie de programas inclusivos que trabajan con población en situación de vulnerabilidad; sin embargo, para un ciudadano que recorra la cuidad a diario parecería no ser suficiente porque constantemente se evidencian las mismas situaciones; esto, se debe más a falta de socialización con los programas existentes y al conocimiento de cada uno, es decir a la masificación de la difusión de información. 
+_______________________________________________________________________________________________________________________________________________________________________
+*Fuente DANE, 2020.
 
 ## 2.	¿Por qué los datos geográficos ayudan a resolverlo?
 
