@@ -65,7 +65,7 @@ Acto seguido, se unifican los centros de atención recopilados en IDECA en una s
 
 Para determinar dicha suficiencia, se utiliza un modelo de densidad sobre una superficie a partir de un punto, para ello se utiliza una de tipo kernel con los datos en cuestión como se muestra a continuación: 
 <p align="center">
-<img src="kernela.png" alt="kernela" width="400"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="kernelb.png" alt="kernelb" width="400"/>
+<img src="kernela.png" alt="kernela" width="400"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="kernelb.png" alt="kernelb" width="400"/>
 <br>Figura 2. Fuente: Propia. &nbsp;&nbsp;&nbsp;&nbsp; Figura 3. Fuente: Propia. <br/>
 </p>
 
