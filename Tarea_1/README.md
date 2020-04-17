@@ -1,4 +1,4 @@
-<div style="text-align: right"> your-text-here </div>
+<div style="text-align: center"> your-text-here </div>
 
 # Bogotá y la inclusión social. 
 
