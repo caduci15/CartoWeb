@@ -1,4 +1,6 @@
-<div style="text-align: center"> your-text-here </div>
+<p align ="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
 
 # Bogotá y la inclusión social. 
 
