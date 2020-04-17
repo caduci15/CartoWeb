@@ -66,34 +66,21 @@ Acto seguido, se unifican los centros de atención recopilados en IDECA en una s
 Para determinar dicha suficiencia, se utiliza un modelo de densidad sobre una superficie a partir de un punto, para ello se utiliza una de tipo kernel con los datos en cuestión como se muestra a continuación: 
 <p align="center">
 <img src="kernela.png" alt="kernela" width="400"/> &nbsp;&nbsp;&nbsp; <img src="kernelb.png" alt="kernelb" width="400"/>
-<br>Figura 2.Fuente: Propia.<br/>
+<br>Figura 2-3. Fuente: Propia.<br/>
 </p>
 
 <p align="center">
-
-</p>
-
-<p align="center">
-<img src="kernelc.png" alt="kernelc" width="400"/> 
-<br>Figura 4. Fuente: Propia. <br/> 
-</p>
-
-<p align="center">
-<img src="kerneld.png" alt="kerneld" width="400"/>  
-<br> Figura 5. Fuente: Propia. <br/> 
+<img src="kernelc.png" alt="kernelc" width="400"/> &nbsp;&nbsp;&nbsp; <img src="kerneld.png" alt="kerneld" width="400"/>  
+<br>Figura 4-5. Fuente: Propia. <br/> 
 </p>
 
 Finalmente se generan mapas de clústeres sobre los que se puede evidenciar si la población está siendo o no atendida como sigue: 
 
 <p align="center">
-<img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
-<br>Figura 6. Fuente: Propia. <br/>
+<img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/> &nbsp;&nbsp;&nbsp; <img src="proteger.png" alt="proteger.png" width="400"/>
+<br>Figura 6-7. Fuente: Propia. <br/>
 </p>
 
-<p align="center">
-<img src="proteger.png" alt="proteger.png" width="400"/>
-<br>Figura 7. Fuente: Propia. <br/>
-</p>
 
 <p align="center">
 <img src="forjar.png" alt="forjar.png" width="400"/>
