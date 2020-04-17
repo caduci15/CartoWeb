@@ -63,49 +63,76 @@ El modelo se divide en dos partes, una contiene los datos de entrada y una selec
 Acto seguido, se unifican los centros de atención recopilados en IDECA en una sola gdb y se procede a utilizar dicha información para depurarse por localidad. Esto con el fin de tener un resultado final por localidad de las manzanas objeto de estudio y poder determinar cuáles reciben o no la atención de infraestructura suficiente. 
 
 Para determinar dicha suficiencia, se utiliza un modelo de densidad sobre una superficie a partir de un punto, para ello se utiliza una de tipo kernel con los datos en cuestión como se muestra a continuación: 
-
+<p align="center">
 <img src="kernela.png" alt="kernela" width="400"/> 
 Figura 2. Fuente: Propia. 
+</p>
+
+<p align="center">
 <img src="kernelb.png" alt="kernelb" width="400"/>
 Figura 3. Fuente: Propia. 
+</p>
+
+<p align="center">
 <img src="kernelc.png" alt="kernelc" width="400"/> 
 Figura 4. Fuente: Propia. 
+</p>
+
+<p align="center">
 <img src="kerneld.png" alt="kerneld" width="400"/>  
 Figura 5. Fuente: Propia. 
+</p>
 
 Finalmente se generan mapas de clústeres sobre los que se puede evidenciar si la población está siendo o no atendida como sigue: 
 
+<p align="center">
 <img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
-
 Figura 6. Fuente: Propia. 
+</p>
 
+<p align="center">
 <img src="proteger.png" alt="proteger.png" width="400"/>
 Figura 7. Fuente: Propia. 
+</p>
 
+<p align="center">
 <img src="forjar.png" alt="forjar.png" width="400"/>
 Figura 8. Fuente: Propia. 
+</p>
 
+<p align="center">
 <img src="puntosamar.png" alt="puntosamar" width="400"/>
 Figura 9. Fuente: Propia. 
+</p>
 
+<p align="center">
 <img src="atencionsocialfocalizada.png" alt="atencionsocialfocalizada.png" width="400"/>
 Figura 10. Fuente: Propia. 
+</p>
 
 Finalmente se realizó una validación de los puntos que eran objeto de la zona de estudio y su distribución espacial por la ciudad. 
 
+<p align="center">
 <img src="puntosatencionsocial.png" alt="puntosatencionsocial.png" width="400"/>
 Figura 11. Fuente: Propia. 
+</p>
 
+<p align="center">
 <img src="densidadbogota.png" alt="densidadbogota.png" width="400"/>
 Figura 12. Fuente: Propia. 
+</p>
 
 Se pudo evidenciar que no se suplen las necesidades donde deberían ser atendidas en principio. 
 
+<p align="center">
 <img src="estratoa.png" alt="estratoa.png" width="400"/>
 Figura 13. Fuente: Propia. 
+</p>
 
+<p align="center">
 <img src="estratob.png" alt="estratob.png" width="400"/>
 Figura 14. Fuente: Propia. 
+</p>
 
 También, fue necesario generar una salida por cada localidad con su respectiva cantidad de manzanas inatendidas. Al realizar las validaciones sobre el ejercicio, se evidencia que no se pueden realizar publicaciones de archivos ráster de una manera rápida, por lo que se procede a realizar un buffer que sería el análogo a las validaciones de clústeres o densidades de tipo vector, para lo que se usan áreas de 5.000m2 que equivalen a lo que debería recorrer una persona diariamente por trayecto para ejercitarse. (10.000ml en total). 
 
