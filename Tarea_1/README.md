@@ -50,7 +50,10 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
  
 Se debe separar el análisis en dos partes, de las cuales una se realizó con procesos manuales y la otra se realizó con un geoproceso que se describe a continuación: 
 
-<img src="modelo.png" alt="modelo" width="900"/> 
+
+<p align="center">
+  <img src="modelo.png" alt="modelo" width="900"/> 
+</p>
 Figura 1. Fuente: Propia. 
 
 En este modelo se explica la depuración de la información y el cruce que se hizo para realizar las validaciones posteriores sobre las densidades de infraestructura existente. 
