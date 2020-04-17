@@ -1,6 +1,5 @@
 <p align ="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-</p>
+  <
 
 # Bogotá y la inclusión social. 
 
@@ -160,7 +159,7 @@ Con las herramientas, surgen varios interrogantes, el primero es el tamaño máx
 Se entiende de antemano que Qgis2web no es funcional para datos ráster, para ello se pensó usar Geoserver pero los tiempos no se ajustaron a dicha solución para poder mostrar los resultados del estudio bajo un modelo ráster. 
 
 Del estudio puntualmente: 
-
-
+>
+</p>
 
 
