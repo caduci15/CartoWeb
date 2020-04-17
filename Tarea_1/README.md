@@ -107,7 +107,6 @@ Se pudo evidenciar que no se suplen las necesidades donde deberían ser atendida
 </p>
 
 
-
 También, fue necesario generar una salida por cada localidad con su respectiva cantidad de manzanas inatendidas. Al realizar las validaciones sobre el ejercicio, se evidencia que no se pueden realizar publicaciones de archivos ráster de una manera rápida, por lo que se procede a realizar un buffer que sería el análogo a las validaciones de clústeres o densidades de tipo vector, para lo que se usan áreas de 5.000m2 que equivalen a lo que debería recorrer una persona diariamente por trayecto para ejercitarse. (10.000ml en total). 
 
 Este análisis se propone bajo el supuesto de buscar que las personas puedan ser atendidas sin tener que incurrir en gastos de transporte debido a su condición de vulnerabilidad por localidad y manzana. (Mismos resultados evidenciados en el geoproceso de la figura 1.), con lo cual se evidencian los siguientes resultados: 
