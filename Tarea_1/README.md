@@ -54,7 +54,7 @@ Se debe separar el análisis en dos partes, de las cuales una se realizó con pr
 <p align="center">
   <img src="modelo.png" alt="modelo" width="900"/> 
 </p>
-Figura 1. Fuente: Propia. 
+<br>Figura 1. Fuente: Propia. <br/>
 
 En este modelo se explica la depuración de la información y el cruce que se hizo para realizar las validaciones posteriores sobre las densidades de infraestructura existente. 
 
@@ -70,68 +70,68 @@ Para determinar dicha suficiencia, se utiliza un modelo de densidad sobre una su
 
 <p align="center">
 <img src="kernelb.png" alt="kernelb" width="400"/>
-Figura 3. Fuente: Propia. 
+<br>Figura 3. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
 <img src="kernelc.png" alt="kernelc" width="400"/> 
-Figura 4. Fuente: Propia. 
+<br>Figura 4. Fuente: Propia. <br/> 
 </p>
 
 <p align="center">
 <img src="kerneld.png" alt="kerneld" width="400"/>  
-Figura 5. Fuente: Propia. 
+<br> Figura 5. Fuente: Propia. <br/> 
 </p>
 
 Finalmente se generan mapas de clústeres sobre los que se puede evidenciar si la población está siendo o no atendida como sigue: 
 
 <p align="center">
 <img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
-Figura 6. Fuente: Propia. 
+<br>Figura 6. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
 <img src="proteger.png" alt="proteger.png" width="400"/>
-Figura 7. Fuente: Propia. 
+<br>Figura 7. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
 <img src="forjar.png" alt="forjar.png" width="400"/>
-Figura 8. Fuente: Propia. 
+<br>Figura 8. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
 <img src="puntosamar.png" alt="puntosamar" width="400"/>
-Figura 9. Fuente: Propia. 
+<br>Figura 9. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
 <img src="atencionsocialfocalizada.png" alt="atencionsocialfocalizada.png" width="400"/>
-Figura 10. Fuente: Propia. 
+<br>Figura 10. Fuente: Propia. <br/>
 </p>
 
 Finalmente se realizó una validación de los puntos que eran objeto de la zona de estudio y su distribución espacial por la ciudad. 
 
 <p align="center">
 <img src="puntosatencionsocial.png" alt="puntosatencionsocial.png" width="400"/>
-Figura 11. Fuente: Propia. 
+<br>Figura 11. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
 <img src="densidadbogota.png" alt="densidadbogota.png" width="400"/>
-Figura 12. Fuente: Propia. 
+<br>Figura 12. Fuente: Propia. <br/>
 </p>
 
 Se pudo evidenciar que no se suplen las necesidades donde deberían ser atendidas en principio. 
 
 <p align="center">
 <img src="estratoa.png" alt="estratoa.png" width="400"/>
-Figura 13. Fuente: Propia. 
+<br>Figura 13. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
 <img src="estratob.png" alt="estratob.png" width="400"/>
-Figura 14. Fuente: Propia. 
+<br>Figura 14. Fuente: Propia. <br/>
 </p>
 
 También, fue necesario generar una salida por cada localidad con su respectiva cantidad de manzanas inatendidas. Al realizar las validaciones sobre el ejercicio, se evidencia que no se pueden realizar publicaciones de archivos ráster de una manera rápida, por lo que se procede a realizar un buffer que sería el análogo a las validaciones de clústeres o densidades de tipo vector, para lo que se usan áreas de 5.000m2 que equivalen a lo que debería recorrer una persona diariamente por trayecto para ejercitarse. (10.000ml en total). 
