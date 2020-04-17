@@ -2,10 +2,11 @@
 
 ## 1.	¿Cuál es el problema a tratar?
 
-Bogotá es la ciudad de Colombia que más población acoge en todo el país por diferentes razones, entre ellas, la principal es que, al ser la capital, es el lugar donde más confluyen dinámicas económicas y por ende si se realiza una discriminación de aporte de puntos al PIB por región, Bogotá lleva la delantera; se estima con cifras que el PIB total del país a 2018 ascendía a 985.931, de los cuales 252.511 provenían de la ciudad. *(Medido en miles de pesos). 
-Así mismo, al ser una ciudad con una dinámica voraz, necesita políticas eficientes para todos sus habitantes, de los cuales el 5,9%* corresponde a población en situación de pobreza extrema; y el 12.4%* se encuentra en índices de pobreza tasable pero no con índices de NBI apropiados. Esto, llevado a porcentajes, en suma, indica que el 18,3%* de la población en Bogotá requiere atención social permanentemente. 
+Bogotá es la ciudad de Colombia que más población acoge en todo el país por diferentes razones, entre ellas, la principal es que, al ser la capital, es el lugar donde más confluyen dinámicas económicas y por ende si se realiza una discriminación de aporte de puntos al PIB por región, Bogotá lleva la delantera; se estima con cifras que el PIB total del país a 2018 ascendía a 985.931, de los cuales 252.511 provenían de la ciudad (Medido en miles de pesos). 
+Así mismo, al ser una ciudad con una dinámica voraz, necesita políticas eficientes para todos sus habitantes, de los cuales el 5,9% corresponde a población en situación de pobreza extrema; y el 12.4% se encuentra en índices de pobreza tasable pero no con índices de Necesidadesas Insatisfechas (NBI) apropiados. Esto, llevado a porcentajes, en suma, indica que el 18,3%* de la población en Bogotá requiere atención social permanentemente.*
+Así mismo, al ser una ciudad con una dinámica voraz, necesita políticas eficientes para todos sus habitantes, de los cuales el 5,9% corresponde a población en situación de pobreza extrema; y el 12.4% se encuentra en índices de pobreza tasable pero no con índices de Necesidades NBI apropiados. Esto, llevado a porcentajes, en suma, indica que el 18,3%* de la población en Bogotá requiere atención social permanentemente.*
 
-La Alcaldía, consciente de la situación de la población en mención ha puesto en marcha una serie de programas inclusivos que trabajan con población en situación de vulnerabilidad; sin embargo, para un ciudadano que recorra la cuidad a diario parecería no ser suficiente porque constantemente se evidencian las mismas situaciones; esto, se debe más a falta de socialización con los programas existentes y al conocimiento de cada uno, es decir a la masificación de la difusión de información. 
+La Alcaldía, consciente de la situación de la población en mención ha puesto en marcha una serie de programas inclusivos que trabajan con población en situación de vulnerabilidad; sin embargo, para un ciudadano que recorra la cuidad a diario parecería no ser suficiente porque constantemente se evidencian las mismas problemáticas de ausencia distrital; esto, se debe más a falta de socialización con los programas existentes y al conocimiento de cada uno, es decir a la masificación de la difusión de información. 
 _______________________________________________________________________________________________________________________________________________________________________
 *Fuente DANE, 2020.
 
@@ -15,11 +16,11 @@ Pareciera casi un dogma que los estratos sociales menos favorecidos son los que 
 
 ## 3.	Descripción de la solución propuesta.
 
-La solución que se plantea es recopilar los datos disponibles en el repositorio del DPS, cruzarlos con los estratos socioeconómicos y validar cuáles localidades deben recibir atención de infraestructura, además de la concentración de sitios de atención por localidad. Posteriormente se plantea validar con una capa de uso del suelo cuáles podrían ser las potenciales ubicaciones sobre las cuales el DPS podría poner la mira para realizar adquisiciones inteligentes de predios en función del uso que le sirve a dichos centros. (Dotacional), esto para realizar un primer acercamiento sobre ubicaciones estratégicas de las zonas de atención. 
+La solución que se plantea es recopilar los datos disponibles en el repositorio de IDECA, cruzarlos con los estratos socioeconómicos y validar cuáles localidades deben recibir atención de infraestructura, además de la concentración de sitios de atención por localidad. Posteriormente, se plantea validar con una capa de uso del suelo cuáles podrían ser las potenciales ubicaciones sobre las cuales el DPS podría poner la mira para realizar adquisiciones inteligentes de predios en función del uso que le sirve a dichos centros(Dotacional). Esto para realizar un primer acercamiento sobre ubicaciones estratégicas de las zonas de atención. 
 
 ## 4.	Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.
 
-Atributibamente hablando los conjuntos de datos tienen el mismo estándar, están confgurados para mostrar horarios de atención, dirección, teléfono, localización y sector catastral en el que se encuentra. 
+Atributibamente hablando los conjuntos de datos tienen el mismo estándar, están configurados para mostrar horarios de atención, dirección, teléfono, localización y sector catastral en el que se encuentra. 
 
 La fuente de datos proviene de IDECA, a continuación se lista la fuente de datos y se enuncia el enlace donde se encuentra disponible. 
 
@@ -44,18 +45,18 @@ La fuente de datos proviene de IDECA, a continuación se lista la fuente de dato
 
 ## 5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
  
-Se debió separar el análisis de dos partes, de las cuales una se realizó con procesos manuales y la otra se realizó con un geoproceso que se describe a continuación: 
+Se debe separar el análisis en dos partes, de las cuales una se realizó con procesos manuales y la otra se realizó con un geoproceso que se describe a continuación: 
 
 <img src="modelo.png" alt="modelo" width="900"/> 
 Figura 1. Fuente: Propia. 
 
-En este modelo se explica la depuración de la información y el cruce que se hizo para realizar las validaciones posteriores spbre las densidades de infraestructura existente. 
+En este modelo se explica la depuración de la información y el cruce que se hizo para realizar las validaciones posteriores sobre las densidades de infraestructura existente. 
 
 El modelo se divide en dos partes, una contiene los datos de entrada y una selección por categorización de estrato en cada localidad de Bogotá. 
 
 Acto seguido, se unifican los centros de atención recopilados en IDECA en una sola gdb y se procede a utilizar dicha información para depurarse por localidad. Esto con el fin de tener un resultado final por localidad de las manzanas objeto de estudio y poder determinar cuáles reciben o no la atención de infraestructura suficiente. 
 
-Para determinar dicha suficiente se utiliza un modelo de densidad puntual sobre una superficie, para ello se utiliza una densidad de tipo kernel con los datos en cuestión como se muestra a continuación: 
+Para determinar dicha suficiencia, se utiliza un modelo de densidad sobre una superficie a partir de un punto, para ello se utiliza una de tipo kernel con los datos en cuestión como se muestra a continuación: 
 
 <img src="kernela.png" alt="kernela" width="400"/> 
 Figura 2. Fuente: Propia. 
@@ -66,7 +67,7 @@ Figura 4. Fuente: Propia.
 <img src="kerneld.png" alt="kerneld" width="400"/>  
 Figura 5. Fuente: Propia. 
 
-Finalmente se generan mapas de clústeres sobre los que se puede evidenciar si la población o no está siendo atendida como sigue: 
+Finalmente se generan mapas de clústeres sobre los que se puede evidenciar si la población está siendo o no atendida como sigue: 
 
 <img src="creciendoenfamilia.png" alt="creciendoenfamilia.png" width="400"/>
 
@@ -100,18 +101,18 @@ Figura 13. Fuente: Propia.
 <img src="estratob.png" alt="estratob.png" width="400"/>
 Figura 14. Fuente: Propia. 
 
-También, se debió generar una salida por cada localidad con su respectiva cantidad de manzanas inatendidas. Al realizar las validaciones sobre el ejercicio, se evidencia que no se pueden realizar publicaciones de archivos ráster de una manera rápida, por lo que se procede a realizar un buffer que sería el análogo a las validaciones de clústeres o densidades de tipo vector, para lo que se usan áreas de 5.000m2 que equivalen a lo que debería recorrer una persona diariamente por trayecto para ejercitarse. (10.000ml en total). 
+También, fue necesario generar una salida por cada localidad con su respectiva cantidad de manzanas inatendidas. Al realizar las validaciones sobre el ejercicio, se evidencia que no se pueden realizar publicaciones de archivos ráster de una manera rápida, por lo que se procede a realizar un buffer que sería el análogo a las validaciones de clústeres o densidades de tipo vector, para lo que se usan áreas de 5.000m2 que equivalen a lo que debería recorrer una persona diariamente por trayecto para ejercitarse. (10.000ml en total). 
 
 Este análisis se propone bajo el supuesto de buscar que las personas puedan ser atendidas sin tener que incurrir en gastos de transporte debido a su condición de vulnerabilidad por localidad y manzana. (Mismos resultados evidenciados en el geoproceso de la figura 1.), con lo cual se evidencian los siguientes resultados: 
 
 
 ## 6.	Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)
 
-Se realizó trabajo partido en dos segmentos, uno con análisis ráster y otro realizando una serie de geoprocesos citados en la figura 1. 
+Se realizó trabajo dividido en dos segmentos, uno con análisis ráster y otro realizando una serie de geoprocesos citados en la figura 1. 
 
-Posteriormente se seleccionaron los centros de atención que realizan trabajo social sobre la población y se generó una densidad de tipo kernel para saber cuáles de esas poblaciones están desatendidas, y se realiza el mismo procedimiento con cada centro de atención. 
+Posteriormente se seleccionaron los centros de atención que realizan trabajo social sobre la población y se generó una densidad de tipo kernel para saber cuáles de esas poblaciones están desatendidas. Se realiza el mismo procedimiento con cada centro de atención. 
 
-Finalmente se utiliza una capa que contiene todos los centros de atención (producto de la figura 1) y se realiza el mismo análisis de clúster con salidas tipo vector para validar la misma variable en conjunto sobre la ciudad
+Finalmente se utiliza una capa que contiene todos los centros de atención (producto de la figura 1) y se realiza el mismo análisis de clúster con salidas tipo vector para validar la misma variable en conjunto sobre la ciudad.
 
 ## 7.	Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas: Qgiscloud , leaflet, QGIS2Web , Github Pages, kepler.gl, flourish, etc.
 
@@ -143,16 +144,16 @@ https://caduci15.github.io/CartoWeb/Tarea_1/mapa/index.html
 
 Del ejercicio en general: 
 
-En primera instancia, los datos que iban a ser utilizados para este ejercicio no eran de fuente IDECA, el primer ejercicio se pensó en dos focos, uno, en el sector educación y otro en la población en condición de calle. Absolutamente todos los datos tenían origen o bien en el portal de datos del DANE, o en la página oficial de datos de la Nación (https://www.datos.gov.co/), de lo cual se concluye que es un ejercicio demasiado desgastante, los portales de datos en Colombia aún tienen un camino larguísimo por recorrer en lo que a interoperabilidad refiere, el primer acercamiento fue al portal de datos abiertos del DANE (http://anda.dane.gov.co/index.php/catalog/MICRODATOS/about), y no hubo respuesta positiva, los datos se pueden descargar únicamnete en extensión .SAV, al hacer una validación sobre ese tipo de extensiones, se encontró que son nativas de SPSS y no son de fácil lectura sin software especializado, no existe ninguna extensión que permita la consulta de los datos abiertamente y menos hacerle operaciones espaciales. Posteriormente se hizo un acercamiento sobre el Geoportal propiamente para validar la descarga de datos en formato geográfico, sin éxito alguno, únicamente están publicados los datos básicos de límites administrativos y ninguna de las encuestas que realiza la institución. 
+En primera instancia, los datos que iban a ser utilizados para este ejercicio no eran de fuente IDECA. El primer ejercicio se pensó en dos focos, uno, en el sector educación y otro en la población en condición de calle. Absolutamente todos los datos tenían origen o bien en el portal de datos del DANE, o en la página oficial de datos de la Nación (https://www.datos.gov.co/), de lo cual se concluye que es un ejercicio demasiado desgastante, los portales de datos en Colombia aún tienen un camino extenso por recorrer en lo que a interoperabilidad refiere, el primer acercamiento fue al portal de datos abiertos del DANE (http://anda.dane.gov.co/index.php/catalog/MICRODATOS/about), y no hubo respuesta positiva. Los datos se pueden descargar únicamnete en extensión .SAV, al hacer una validación sobre ese tipo de extensiones, se encontró que son nativas de SPSS y no son de fácil lectura sin software especializado, no existe ninguna extensión que permita la consulta de los datos abiertamente y menos realizar operaciones espaciales. Posteriormente, se hizo un acercamiento sobre el Geoportal propiamente para validar la descarga de datos en formato geográfico, sin éxito alguno, únicamente están publicados los datos básicos de límites administrativos y ninguna de las encuestas que realiza la institución. 
 
-Se realizó una consulta posterior al portal de Datos de la Nación, donde el acercamiento tampoco fue amigable, se realizó un filtro sobre datos que pudieran ser utilizables con geometrías y se validaron los posibles formatos de exporte, donde únicamente se habilita la opción de CSV, no en formato Geojson, un Json, Shp, Gepackage, pese a que los datos en teoría eran "espaciales". Se intentó descargar un CSV y realizar geocodificación pero sucedían dos fenómenos, por un lado, las geocodificaciones que se podían realizar en software Opensource como Google permitían un límite de datos que no alcanzaba a ser el universo de estudio planeado previamente, y por otro lado, al intentar espacializarlo, de igual modo para a posterior realizar uniones y cortes sobre los datos y depurar, se encontró que las bases de datos publicadas no contaban con dos parámetros: uno de metacalidad donde se validara la integridad de los datos (los campos estaban cruzados unos con otros para geocodificar por dirección y localidad, por ejemplo) y con un metadato que explícase de modo puntual qué indicaba cada variable para saber cómo realizar una depuración consciente de los datos. De ahí se pudo inferir que a los portales de datos abiertos existentes en el país les hace falta un camino fuerte de integración de tecnologías espaciales y de implantación de normas ISO de calidad de datos (análogo a las NTC 5043 y 4611 para datos geográficos). 
+Se realizó una consulta posterior al portal de Datos de la Nación, donde el acercamiento tampoco fue amigable. Se realizó un filtro sobre datos que pudieran ser utilizables con geometrías y se validaron los posibles formatos de exporte, donde únicamente se habilita la opción de CSV, no en formato Geojson, un Json, Shp, Gepackage, pese a que los datos en teoría eran "espaciales". Se intentó descargar un CSV y realizar geocodificación pero sucedían dos fenómenos, por un lado, las geocodificaciones que se podían realizar en software Opensource como Google permitían un límite de datos que no alcanzaba a ser el universo de estudio planeado previamente, y por otro lado, al intentar espacializarlo, de igual modo para a posterior realizar uniones y cortes sobre los datos y depurar, se encontró que las bases de datos publicadas no contaban con dos parámetros: uno de metacalidad donde se validara la integridad de los datos (los campos estaban cruzados unos con otros para geocodificar por dirección y localidad, por ejemplo) y segundo, tampoco contaba con un metadato que explícase de modo puntual qué indicaba cada variable para saber cómo realizar una depuración consciente de los datos. De ahí se pudo inferir que a los portales de datos abiertos existentes en el país les hace falta un camino bastante extenso por recorrer en lo que refiere a integración de tecnologías espaciales y de implantación de normas ISO de calidad de datos (análogo a las NTC 5043 y 4611 para datos geográficos). 
 
 
-Con los datos empleados surgen una considerable serie de preguntas sobre los focos sobre los que se centra la atención del DPS, no están encaminados en absoluto a donde deberían ir, por lo que debería repensarse si realmente se están focalizando las ayudas hacia donde debería ser. 
+Con los datos empleados surge una considerable serie de preguntas sobre la población en la que se centra la atención del DPS, los resultados evidencian que la infraestructura no está encaminada en absoluto a atender los focos a donde debería ir dirigida, por lo que debería repensarse si realmente se están proyectando las ayudas ofrecidas en la dirección correcta. Cabe destacar además que el DPS incluye una estratificación cero (0) en sus datos, lo cual bajo el estándar técnico de asignación de estratificación y los criterios de hábitat que formulan dichos planteamientos no debería incluir dicho estrato como un índice socieconómico y sí como la ausencia de estrato por uso o destino del predio en mención. 
 
-Con las herramientas, surgen varios interrogantes, el primero es el tamaño máximo que permite cargar QGIS2Web, se intentó realizar un cargue de las manzanas objeto de estudio, y aunque se atendió la premisa de clase de tamaño, no permitió por superar la cantidad de unidades posibles para analizar, por lo que en algún punto se replanteó el modelo para mostrarse por localidad y no en general. 
+Con las herramientas, surgen varios interrogantes, el primero es el tamaño máximo que permite cargar QGIS2Web, pues se intentó realizar un cargue de las manzanas objeto de estudio, y aunque se atendió la premisa socializada en clase de tamaño de cargue de archivos, no fue exitosa la operación por superar la cantidad de unidades posibles para analizar, por lo que en algún punto se replanteó el modelo para mostrarse por localidad y no en general. 
 
-Se entiende de antemano que Qgis2web no es funcional para datos ráster, para ello se pensó usar Geoserver pero los tiempos no se ajustaron a dicha solución para poder mostrar los resultados del estudio. 
+Se entiende de antemano que Qgis2web no es funcional para datos ráster, para ello se pensó usar Geoserver pero los tiempos no se ajustaron a dicha solución para poder mostrar los resultados del estudio bajo un modelo ráster. 
 
 Del estudio puntualmente: 
 
