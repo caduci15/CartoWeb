@@ -53,8 +53,9 @@ Se debe separar el análisis en dos partes, de las cuales una se realizó con pr
 
 <p align="center">
   <img src="modelo.png" alt="modelo" width="900"/> 
+  <br>Figura 1. Fuente: Propia. <br/>
 </p>
-<br>Figura 1. Fuente: Propia. <br/>
+
 
 En este modelo se explica la depuración de la información y el cruce que se hizo para realizar las validaciones posteriores sobre las densidades de infraestructura existente. 
 
