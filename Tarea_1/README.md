@@ -112,9 +112,95 @@ También, fue necesario generar una salida por cada localidad con su respectiva 
 Este análisis se propone bajo el supuesto de buscar que las personas puedan ser atendidas sin tener que incurrir en gastos de transporte debido a su condición de vulnerabilidad por localidad y manzana. (Mismos resultados evidenciados en el geoproceso de la figura 1.), con lo cual se evidencian los siguientes resultados: 
 
 <p align="center">
-<img src="usaq.JPG" alt="usaq.JPG" width="400"/> &nbsp;&nbsp;&nbsp; <img src="usm.JPG" alt="usm.JPG" width="400"/>
-<br>Figura 15-16. Fuente: Propia. <br/>
+<img src="usaq.JPG" alt="usaq.JPG" width="300"/> >
+<br>Figura 15. Fuente: Propia. <br/>
 </p>
+
+<p align="center">
+<img src="usm.JPG" alt="usm.JPG" width="300"/> >
+<br>Figura 16. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="tunjue.JPG" alt="tunjue.JPG" width="300"/> >
+<br>Figura 17. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="sub.JPG" alt="sub.JPG" width="300"/> >
+<br>Figura 18. Fuente: Propia. <br/>
+</p>
+<p align="center">
+<img src="santaf.JPG" alt="santaf.JPG" width="300"/> >
+<br>Figura 19. Fuente: Propia. <br/>
+</p>
+<p align="center">
+<img src="cristobal.JPG" alt="cristobal.JPG" width="300"/> >
+<br>Figura 20. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="rafael.JPG" alt="rafael.JPG" width="300"/> >
+<br>Figura 21. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="puente.JPG" alt="puente.JPG" width="300"/> >
+<br>Figura 22. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="marti.JPG" alt="martiJPG" width="300"/> >
+<br>Figura 23. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="kenned.JPG" alt="kenned.JPG" width="300"/> >
+<br>Figura 24. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="fonti.JPG" alt="fonti.JPG" width="300"/> >
+<br>Figura 25. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="engat.JPG" alt="engat.JPG" width="300"/> >
+<br>Figura 26. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="chapi.JPG" alt="chapi.JPG" width="300"/> >
+<br>Figura 27. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="cande.JPG" alt="cande.JPG" width="300"/> >
+<br>Figura 28. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="bosai.JPG" alt="bosai.JPG" width="300"/> >
+<br>Figura 29. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="antonion.JPG" alt="antonion.JPG" width="300"/> >
+<br>Figura 30. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="ciudadbol.JPG" alt="ciudadbol.JPG" width="300"/> >
+<br>Figura 31. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+<img src="general.JPG" alt="general.JPG" width="300"/> >
+<br>Figura 32. Fuente: Propia. <br/>
+</p>
+
+
+
 
 ## 6.	Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)
 
