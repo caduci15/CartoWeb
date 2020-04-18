@@ -141,8 +141,8 @@ https://github.com/caduci15/CartoWeb/tree/master/Tarea_1
 
 ## 9.	Urls de los mapas publicados en la web
 
-| Mapa por Localidades       |     Enlace      | 
-| -------------|:-------------:| -----:  |
+| Mapa por Localidades | Enlace | 
+| -------------|:-------------:|
 
 |Antonio Nariño|https://caduci15.github.io/CartoWeb/Tarea_1/antonio/index.html|
 |Bosa |https://caduci15.github.io/CartoWeb/Tarea_1/bosa/index.html|
