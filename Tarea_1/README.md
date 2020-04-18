@@ -143,8 +143,10 @@ https://github.com/caduci15/CartoWeb/tree/master/Tarea_1
 
 | Mapa por Localidades | Enlace | 
 | -------------|:-------------:|
-
 | Antonio Nariño | https://caduci15.github.io/CartoWeb/Tarea_1/antonio/index.html |
+
+
+
 | Bosa | https://caduci15.github.io/CartoWeb/Tarea_1/bosa/index.html |
 | Candelaria | https://caduci15.github.io/CartoWeb/Tarea_1/candelaria/index.html |
 | Chapinero | https://caduci15.github.io/CartoWeb/Tarea_1/chapinero/index.html |
