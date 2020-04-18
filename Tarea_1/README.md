@@ -112,7 +112,7 @@ También, fue necesario generar una salida por cada localidad con su respectiva 
 Este análisis se propone bajo el supuesto de buscar que las personas puedan ser atendidas sin tener que incurrir en gastos de transporte debido a su condición de vulnerabilidad por localidad y manzana. (Mismos resultados evidenciados en el geoproceso de la figura 1.), con lo cual se evidencian los siguientes resultados: 
 
 <p align="center">
-<img src="usaq.jpg" alt="usaq.jpg" width="400"/> &nbsp;&nbsp;&nbsp; <img src="usm.jpg" alt="usm.jpg" width="400"/>
+<img src="usaq.JPG" alt="usaq.JPG" width="400"/> &nbsp;&nbsp;&nbsp; <img src="usm.JPG" alt="usm.JPG" width="400"/>
 <br>Figura 15-16. Fuente: Propia. <br/>
 </p>
 
