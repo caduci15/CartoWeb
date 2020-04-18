@@ -160,7 +160,8 @@ https://github.com/caduci15/CartoWeb/tree/master/Tarea_1
 | Tunjuelito | https://caduci15.github.io/CartoWeb/Tarea_1/tunjuelito/index.html |
 | Usaquén | https://caduci15.github.io/CartoWeb/Tarea_1/usaquen/index.html |
 | Usme | https://caduci15.github.io/CartoWeb/Tarea_1/usme/index.html |
-| Observaciones: Algunas localidades no se encuentran en el repositorio, esto es debido a la ausencia de manzanas que cumplan con las caraceterístocas objeto de estudio. |
+| Observaciones: Algunas localidades no se encuentran en el repositorio, esto es debido a la ausencia 
+de manzanas que cumplan con las caraceterístocas objeto de estudio, en el siguiente enlace se pueden consultar los centros de atención y su respectiva localidad| https://caduci15.github.io/CartoWeb/Tarea_1/mapa/index.html |
 
 
 
