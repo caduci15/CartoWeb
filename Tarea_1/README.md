@@ -117,84 +117,103 @@ Localidad Usaquén
 <br>Figura 15. Fuente: Propia. <br/>
 </p>
 
+Localidad Usme
 <p align="center">
 <img src="usm.JPG" alt="usm.JPG" width="300"/> >
 <br>Figura 16. Fuente: Propia. <br/>
 </p>
 
+Localidad Tunjuelito
 <p align="center">
 <img src="tunjue.JPG" alt="tunjue.JPG" width="300"/> >
 <br>Figura 17. Fuente: Propia. <br/>
 </p>
 
+Localidad Suba
 <p align="center">
 <img src="sub.JPG" alt="sub.JPG" width="300"/> >
 <br>Figura 18. Fuente: Propia. <br/>
 </p>
+
+Localidad Santafe
 <p align="center">
 <img src="santaf.JPG" alt="santaf.JPG" width="300"/> >
 <br>Figura 19. Fuente: Propia. <br/>
 </p>
+
+Localidad Sancristobal
 <p align="center">
 <img src="cristobal.JPG" alt="cristobal.JPG" width="300"/> >
 <br>Figura 20. Fuente: Propia. <br/>
 </p>
 
+Localidad Rafael Uribe Uribe
 <p align="center">
 <img src="rafael.JPG" alt="rafael.JPG" width="300"/> >
 <br>Figura 21. Fuente: Propia. <br/>
 </p>
 
+Localidad Puente Aranda
 <p align="center">
 <img src="puente.JPG" alt="puente.JPG" width="300"/> >
 <br>Figura 22. Fuente: Propia. <br/>
 </p>
 
+Localidad Los Martires 
 <p align="center">
 <img src="marti.JPG" alt="martiJPG" width="300"/> >
 <br>Figura 23. Fuente: Propia. <br/>
 </p>
 
+Localidad Kennedy
 <p align="center">
 <img src="kenned.JPG" alt="kenned.JPG" width="300"/> >
 <br>Figura 24. Fuente: Propia. <br/>
 </p>
 
+Localidad Fontibón
 <p align="center">
 <img src="fonti.JPG" alt="fonti.JPG" width="300"/> >
 <br>Figura 25. Fuente: Propia. <br/>
 </p>
 
+Localidad Engativá
 <p align="center">
 <img src="engat.JPG" alt="engat.JPG" width="300"/> >
 <br>Figura 26. Fuente: Propia. <br/>
 </p>
 
+Localidad Chapinero
 <p align="center">
 <img src="chapi.JPG" alt="chapi.JPG" width="300"/> >
 <br>Figura 27. Fuente: Propia. <br/>
 </p>
 
+Localidad Candelaria
 <p align="center">
 <img src="cande.JPG" alt="cande.JPG" width="300"/> >
 <br>Figura 28. Fuente: Propia. <br/>
 </p>
 
+Localidad Bosa
 <p align="center">
 <img src="bosai.JPG" alt="bosai.JPG" width="300"/> >
 <br>Figura 29. Fuente: Propia. <br/>
 </p>
 
+Localidad Antonio Nariño
 <p align="center">
 <img src="antonion.JPG" alt="antonion.JPG" width="300"/> >
 <br>Figura 30. Fuente: Propia. <br/>
 </p>
 
+Localidad Ciudad Bolívar
 <p align="center">
 <img src="ciudadbol.JPG" alt="ciudadbol.JPG" width="300"/> >
 <br>Figura 31. Fuente: Propia. <br/>
 </p>
 
+Localización General de Centros de Atención en Bogotá
 <p align="center">
 <img src="general.JPG" alt="general.JPG" width="300"/> >
 <br>Figura 32. Fuente: Propia. <br/>
