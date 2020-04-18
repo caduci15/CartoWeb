@@ -160,13 +160,7 @@ https://github.com/caduci15/CartoWeb/tree/master/Tarea_1
 | Tunjuelito | https://caduci15.github.io/CartoWeb/Tarea_1/tunjuelito/index.html |
 | Usaquén | https://caduci15.github.io/CartoWeb/Tarea_1/usaquen/index.html |
 | Usme | https://caduci15.github.io/CartoWeb/Tarea_1/usme/index.html |
-| Observaciones: Algunas localidades no se encuentran en el repositorio, esto es debido a la ausencia 
-de manzanas que cumplan con las caraceterístocas objeto de estudio, en el siguiente enlace se pueden consultar los centros de atención y su respectiva localidad| https://caduci15.github.io/CartoWeb/Tarea_1/mapa/index.html |
-
-
-
-
-
+| Observaciones: Algunas localidades no se encuentran en el repositorio, esto es debido a la ausencia de manzanas que cumplan con las caraceterístocas objeto de estudio, en el siguiente enlace se pueden consultar los centros de atención y su respectiva localidad| https://caduci15.github.io/CartoWeb/Tarea_1/mapa/index.html |
 
 
 
@@ -188,7 +182,9 @@ Con las herramientas, surgen varios interrogantes, el primero es el tamaño máx
 Se entiende de antemano que Qgis2web no es funcional para datos ráster, para ello se pensó usar Geoserver pero los tiempos no se ajustaron a dicha solución para poder mostrar los resultados del estudio bajo un modelo ráster. 
 
 Del estudio puntualmente: 
->
-</p>
+
+No existe suficiente cobertura de los centros de atención para población vulnerable en Bogotá y los que existen no están distribuidos espacialmente de un modo idóneo para suplir las necesidades de la comunidad, por lo que debería replentearse la ubicación de los centros. 
+
+Se había indicado en algún momento la posibilidad de cruzar estos datos con el uso del suelo; sin embargo dicho ejercicio no se puede realizar al validar que los datos existentes no cumplen con las condiciones necesarias para realizar un análisis verídico. (Las capas de uso de suelo disponibles solo corresponde a suelo urbano y rural o en expansión, pero no menciona los usos de cada predio y/o manzana en función del potencial uso que se le permita por upz y edificabilidad.)
 
 
