@@ -111,8 +111,8 @@ También, fue necesario generar una salida por cada localidad con su respectiva 
 
 Este análisis se propone bajo el supuesto de buscar que las personas puedan ser atendidas sin tener que incurrir en gastos de transporte debido a su condición de vulnerabilidad por localidad y manzana. (Mismos resultados evidenciados en el geoproceso de la figura 1.), con lo cual se evidencian los siguientes resultados: 
 
-<p align="center">
 Localidad Usaquén
+<p align="center">
 <img src="usaq.JPG" alt="usaq.JPG" width="300"/> >
 <br>Figura 15. Fuente: Propia. <br/>
 </p>
