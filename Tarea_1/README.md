@@ -141,7 +141,33 @@ https://github.com/caduci15/CartoWeb/tree/master/Tarea_1
 
 ## 9.	Urls de los mapas publicados en la web
 
-https://caduci15.github.io/CartoWeb/Tarea_1/mapa/index.html
+| Mapa por Localidades       |     Enlace      | 
+| -------------|:-------------:| -----:  |
+
+|Antonio Nariño|https://caduci15.github.io/CartoWeb/Tarea_1/antonio/index.html|
+|Bosa |https://caduci15.github.io/CartoWeb/Tarea_1/bosa/index.html|
+|Candelaria |https://caduci15.github.io/CartoWeb/Tarea_1/candelaria/index.html|
+|Chapinero |https://caduci15.github.io/CartoWeb/Tarea_1/chapinero/index.html|
+|Ciudad Bolívar |https://caduci15.github.io/CartoWeb/Tarea_1/ciudadb/index.html|
+|Engativá |https://caduci15.github.io/CartoWeb/Tarea_1/engativa/index.html|
+|Fontibón |https://caduci15.github.io/CartoWeb/Tarea_1/fontibon/index.html|
+|Kennedy |https://caduci15.github.io/CartoWeb/Tarea_1/kennedy/index.html|
+|Los Mártires |https://caduci15.github.io/CartoWeb/Tarea_1/martires/index.html|
+|Puente Aranda |https://caduci15.github.io/CartoWeb/Tarea_1/puentea/index.html|
+|Rafael Uribe Uribe |https://caduci15.github.io/CartoWeb/Tarea_1/rafaelu/index.html|
+|Santafe |https://caduci15.github.io/CartoWeb/Tarea_1/santafe/index.html|
+|San Cristóbal |https://caduci15.github.io/CartoWeb/Tarea_1/scristobal/index.html|
+|Suba |https://caduci15.github.io/CartoWeb/Tarea_1/suba/index.html|
+|Tunjuelito |https://caduci15.github.io/CartoWeb/Tarea_1/tunjuelito/index.html|
+|Usaquén |https://caduci15.github.io/CartoWeb/Tarea_1/usaquen/index.html|
+|Usme |https://caduci15.github.io/CartoWeb/Tarea_1/usme/index.html|
+|Observaciones: Algunas localidades no se encuentran en el repositorio, esto es debido a la ausencia de manzanas que cumplan con las caraceterístocas objeto de estudio|
+
+
+
+
+
+
 
 
 ## 10.	Conclusiones Ventajas / desventajas / dificultades encontradas durante el desarrollo del ejercicio
