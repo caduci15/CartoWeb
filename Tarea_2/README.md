@@ -51,7 +51,9 @@ Los demás se listan a continuación:
 
 ## Espacialización de datos DANE
 
-| Localidad    | Habitantes por localidad (En miles) | Porcentaje del total  | Suma de porcentaje |
+Para proceder a la espacialización de loa datos, se consolidó primero una tabla con los campos que se necesitan contar, seguido de los habitantes de calle por localidad y el porcentaje que representa cada suma en la totalidad de existencia de poblacion en situación de calle en Bogotá. Esto con el fin de poder generar puntos sobre las localidades que representen cada habitante en una ubicación determinada. Para ejercicios prácticos y dada la condición de calle que presenta el habitante y su situación de itinerancia en el sitio empleado para pernoctar, lo único relevante para el estudio es la ubicación en la localidad. 
+
+| Localidad    | Habitantes por localidad (En miles) | Porcentaje del total  | Porcentaje acumulado |
 | -------------|:-------------:| :-------------:| -----:  |	 	
 | Los Mártires	| 1090	| 22,91%	| 22,91% | 
 | Santafé	| 963	| 20,24%	| 43,16% | 
@@ -73,6 +75,43 @@ Los demás se listan a continuación:
 | Tunjuelito	| 59	 | 1,24%	| 99,08% | 
 | Usme	| 44 | 	0,92%	| 100,00% |
 | Totales	| 4757 |	100,00%	| 100,00% |
+*Aquí cabe destacar que hay un porcentaje que no se cuenta en los datos espacializados y son los 2.189 habitantes que ya están censados y debidamnete ubicados en centros de atención especializados.
+
+Después de la tabulación, se procede a realizar una generación de puntos aleatorios por localidad como se muestra en las siguientes figuras, se realiza el proceso en las 19 localidades para demostrar visualmente la alta inmersión de población en condición de calle en la ciudad; sin embargo, para efectos del ejercicio práctico, solo se trabajará con la localidad de Kennedy que es la tercera en densidad poblaciones y permite visualizar una mejor distribución de los datos. 
+
+<p align="center">
+  <img src="procesoa.png" alt="procesoa" width="500"/> 
+  <br>Figura 2. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+  <img src="procesob.png" alt="procesob" width="500"/> 
+  <br>Figura 3. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+  <img src="procesoc.png" alt="procesoc" width="500"/> 
+  <br>Figura 4. Fuente: Propia. <br/>
+</p>
+
+En las figuras 5 y 6 se evidencia el resultado por localidad y el general de la ciudad por habitantes. 
+
+<p align="center">
+  <img src="resultadoa.png" alt="resultadoa" width="500"/> 
+  <br>Figura 5. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+  <img src="resultadosbog.png" alt="resultadosbog" width="500"/> 
+  <br>Figura 6. Fuente: Propia. <br/>
+</p>
+
+Posteriormente se realiza una extracción de las coordenadas inicialmente con funciones en PostGIS, usando st_x(geom) y st_y(geom), pero al intentar realizar un update a la tabla de los valores extraídos en nuevos campos, se obtiene un error que no se entiende cómo solucionar, por lo que se deja en pausa y se procede a extraer los datos con un field calculator de QGIS como se muestra en las figuras 7 y 8. 
+
+<p align="center">
+  <img src="x.png" alt="x" width="500"/>   <img src="y.png" alt="y" width="500"/>      
+  <br>Figura 7 y 8. Fuente: Propia. <br/>
+</p>
 
 
 
