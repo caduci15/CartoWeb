@@ -52,10 +52,7 @@ Los demás se listan a continuación:
 ## Espacialización de datos DANE
 
 | Localidad    | Habitantes por localidad (En miles) | Porcentaje del total  | Suma de porcentaje |
-| -------------|:-------------:| :-------------:| -----:  |
-
-	
-	 	
+| -------------|:-------------:| :-------------:| -----:  |	 	
 | Los Mártires	| 1090	| 22,91%	| 22,91% | 
 | Santafé	| 963	| 20,24%	| 43,16% | 
 | Kennedy	| 435	| 9,14%	| 52,30% |
