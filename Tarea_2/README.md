@@ -24,8 +24,8 @@ Es por eso, que este estudio, busca por un lado, mapear el último Censo de Habi
 A continuación se listan los centros de atención disponibles para el habitante de calle y la población objeto de estudio según las cifras del censo. 
 
 
-| CENTRO | NOMBRE | DIRECCIÓN | TELÉFONO | HORARIO ATENCIÓN |
-| -------------|:-------------:|:-------------:|:-------------:|:-------------:|
+| CENTRO       | NOMBRE        | DIRECCIÓN     | TELÉFONO      | HORARIO ATENCIÓN |
+| -------------|:-------------:|:-------------:|:-------------:|-------------:   |
 
 | 1	| EL CAMINO - COMUNIDAD DE VIDA	| KR 69 47 87	| 4105461 | LUNES A DOMINGO 24 HORAS |
 | 2	| HOGAR DE PASO DÍA - NOCHE 2 CARRERA 35 | KR 35 10 35	| 2016810	| LUNES A DOMINGO 24 HORAS |
