@@ -1,21 +1,7 @@
-<p align ="center">
-  <
 
-# Bogotá y la inclusión social. 
+## 1.  Definición del problema 
 
-## 1.	¿Cuál es el problema a tratar?
-
-| Insumo       | Descripción          | Fuente  |
-| -------------|:-------------:| -----:  |
-
-<p align="center">
-  <img src="modelo.png" alt="modelo" width="900"/> 
-  <br>Figura 1. Fuente: Propia. <br/>
-</p>
-
-1.  Definición del problema 
-
-Estudio de atención a población en situación de calle en Bogotá D.C. 
+# Estudio de atención a población en situación de calle en Bogotá D.C. 
 
 La población en situación de calle en Bogotá alcanza a ser de casi 7.000 habitantes (DANE, 2017), los cuales representan el 0,9% de la población total de la ciudad; sin embargo, a dcha población se le mantiene en un rezago político-social que no es pertinente ni idóneo pensando que la drogadicción, al igual que otras problemáticas sociales, desencadenan inexorablemente en problemas de salud pública. 
 
@@ -23,6 +9,7 @@ Es por eso, que este estudio, busca por un lado, mapear el último Censo de Habi
 
 A continuación se listan los centros de atención disponibles para el habitante de calle y la población objeto de estudio según las cifras del censo: 
 
+<p align="center">
 
 | CENTRO       | NOMBRE        | DIRECCIÓN     | TELÉFONO      | HORARIO ATENCIÓN |
 | -------------|:-------------:|:-------------:|:-------------:|-------------:   |
@@ -37,6 +24,8 @@ A continuación se listan los centros de atención disponibles para el habitante
 | 9	           | HOGAR DE PASO CALLE 18 | CL 18 13 47 | 3411186 | LUNES A DOMINGO 24 HORAS |
 | 10           | HOGAR DE PASO 5 CASA AZUL - MUJERES DIVERSAS	| CL 24 19 A 35	| 3279797 | LUNES A VIERNES DIURNO 7:00 AM - 7:00 PM - NOCTURNO 7:00 PM - 7:00 AM - DOMINGOS Y FESTIVOS: 7:00 AM - 7:00 PM |
 | 11           | HOGAR DE PASO 6 - CARRETEROS	| CL 18 14 36 | 3279797 | LUNES A VIERNES DIURNO 7:00 AM - 7:00 PM - NOCTURNO 7:00 PM - 7:00 AM - DOMINGOS Y FESTIVOS: 7:00 AM - 7:00 PM |
+Fuente: IDECA, Bogotá. 
+<p align="center">
 
 <p align="center">
   <img src="censo.png" alt="censo" width="500"/> 
@@ -45,7 +34,19 @@ A continuación se listan los centros de atención disponibles para el habitante
 
 
 2.  Fuentes de datos
-* Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos **vectoriales**. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los  atributos principales a utilizar.
+
+Los conjuntos de datos que se usaron para el ejercicio, no todos obedencen a datos con geometrías, como es el caso del Censo del DANE, esos datos fueron espacializados con procedimiento que se explica más detalladamente adelante. 
+
+Los demás se listan a continuación: 
+
+| Insumo       | Descripción          | Fuente  |
+| -------------|:-------------:| -----:  |
+| Localidades Bogotá | División del territorio Distrital, teniendo en cuenta las características sociales de sus habitantes y de acuerdo al reparto de competencias y funciones administrativas asignadas por el Concejo Distrital.    |    https://www.ideca.gov.co/recursos/mapas/localidad-bogota-dc |
+| Atención Integral a Ciudadanos Habitantes de Calle. Bogotá D.C. | Espacio donde se atienden ciudadanos y ciudadanas habitante, o en riesgo de habitar calle, de 29 años en adelante, para promover el avance en procesos de inclusión social a través de acciones y estrategias en el corto y mediano plazo que permita el restablecimiento de derechos, la vinculación a redes de apoyo y la proyección de metas personales. | https://www.ideca.gov.co/recursos/mapas/atencion-integral-ciudadanos-habitantes-de-calle-bogota-dc | 
+| Censo habitantes de calle Bogotá | Conjunto de datos que recolectó el Censo de Habitantes de Calle para Bogotá 2017 (Datos no espaciales) | https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-habitantes-de-la-calle-bogota 
+https://sitios.dane.gov.co/habitantes-calle-2018/ | 
+
+
 
 3. Procesamiento de datos
 
@@ -100,4 +101,8 @@ A continuación se listan los centros de atención disponibles para el habitante
 * Tutorial de loom https://support.loom.com/hc/en-us/articles/360006847737-Guide-to-Using-Loom-for-Education
 * **Importante**  en el video debe quedar activa la cámara web durante todo el tiempo. Ejemplo: https://www.loom.com/share/9e89602fed3d40ff9cd3b79759ffce50
 <img src="img/loom.png" width="600"/>
+
+edad mínima 
+y el resto?
+
 
