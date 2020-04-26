@@ -109,8 +109,8 @@ En las figuras 5 y 6 se evidencia el resultado por localidad y el general de la 
 Posteriormente se realiza una extracción de las coordenadas inicialmente con funciones en PostGIS, usando st_x(geom) y st_y(geom), pero al intentar realizar un update a la tabla de los valores extraídos en nuevos campos, se obtiene un error que no se entiende cómo solucionar, por lo que se deja en pausa y se procede a extraer los datos con un field calculator de QGIS como se muestra en las figuras 7 y 8. 
 
 <p align="center">
-  <img src="x.png" alt="x" width="500"/> &nbsp;&nbsp;&nbsp;  <img src="y.png" alt="y" width="500"/>      
-  <br>Figura 7 y 8. Fuente: Propia. <br/>
+  <img src="x.png" alt="x" width="400"/>     &nbsp;&nbsp;&nbsp;  <img src="y.png" alt="y" width="400"/>      
+                                 <br>Figura 7 y 8. Fuente: Propia. <br/>
 </p>
 
 
