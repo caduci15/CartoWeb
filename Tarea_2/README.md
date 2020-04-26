@@ -21,20 +21,17 @@ La población en situación de calle en Bogotá alcanza a ser de casi 7.000 habi
 
 Es por eso, que este estudio, busca por un lado, mapear el último Censo de Habitantes de calle que realizó el DANE en Bogotá (2017) para dar cuenta de la distribución de dichsa población en la ciudad, además busca relacionar cada habitante con un centro u hogar de paso de los once (11) disponibles que tiene el distrito para su atención. Con esto, se busca además evidenciar que los centros existentes no son suficientes para atender dicha población. 
 
-A continuación se listan los centros de atención disponibles para el habitante de calle y la población objeto de estudio según las cifras del censo. 
+A continuación se listan los centros de atención disponibles para el habitante de calle y la población objeto de estudio según las cifras del censo: 
 
 
 | CENTRO       | NOMBRE        | DIRECCIÓN     | TELÉFONO      | HORARIO ATENCIÓN |
 | -------------|:-------------:|:-------------:|:-------------:|-------------:   |
 | 1	           | EL CAMINO - COMUNIDAD DE VIDA	| KR 69 47 87	| 4105461 | LUNES A DOMINGO 24 HORAS |
-
-
-
 | 2	           | HOGAR DE PASO DÍA - NOCHE 2 CARRERA 35 | KR 35 10 35	| 2016810	| LUNES A DOMINGO 24 HORAS |
 | 3            | CENTRO DE ATENCION TRANSITORIA-CAT | KR 35 10 69 | 2478038 | LUNES A DOMINGO 24 HORAS |
 | 4        	   | HOGAR DE PASO DIA - NOCHE 1 BAKATÁ | CL 10 17 15	| 2821859 | LUNES A DOMINGO 24 HORAS |
 | 5	           | LA ACADEMIA - CENTRO DE FORMACION PARA EL ESTUDIO	| CL 12 16 73 | 2824921 | LUNES A DOMINGO 8:00 AM - 4:00 PM |
-| 6	           | COMUNIDAD DE VIDA ALTA DEPENDENCIA FUNCIONAL	LA MESA VEREDA LA TRINITA	| 3808330 | LUNES A DOMINGO 24 HORAS |
+| 6	           | COMUNIDAD DE VIDA ALTA DEPENDENCIA FUNCIONAL |	LA MESA VEREDA LA TRINITA	| 3808330 | LUNES A DOMINGO 24 HORAS |
 | 7	           | COMUNIDAD DE VIDA RICAURTE | RICAURTE - VEREDA LLANO DEL POZO - HACIENDA YIRED | 3808330	| LUNES A DOMINGO 24 HORAS |
 | 8	           | HOGAR DE PASO DÍA NOCHE CRA 13 | 	KR 13 18 36	| 3808330	| LUNES A DOMINGO 24 HORAS |
 | 9	           | HOGAR DE PASO CALLE 18 | CL 18 13 47 | 3411186 | LUNES A DOMINGO 24 HORAS |
