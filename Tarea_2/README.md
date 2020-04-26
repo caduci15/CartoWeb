@@ -35,7 +35,7 @@ Fuente: IDECA, Bogotá.
 
 2.  Fuentes de datos
 
-Los conjuntos de datos que se usaron para el ejercicio, no todos obedencen a datos con geometrías, como es el caso del Censo del DANE, esos datos fueron espacializados con procedimiento que se explica más detalladamente adelante. 
+Los conjuntos de datos que se usaron para el ejercicio, no todos obedecen a datos con geometrías, como es el caso del Censo del DANE, esos datos fueron espacializados con procedimiento que se explica más detalladamente adelante. 
 
 Los demás se listan a continuación: 
 
@@ -43,16 +43,41 @@ Los demás se listan a continuación:
 | -------------|:-------------:| -----:  |
 | Localidades Bogotá | División del territorio Distrital, teniendo en cuenta las características sociales de sus habitantes y de acuerdo al reparto de competencias y funciones administrativas asignadas por el Concejo Distrital.    |    https://www.ideca.gov.co/recursos/mapas/localidad-bogota-dc |
 | Atención Integral a Ciudadanos Habitantes de Calle. Bogotá D.C. | Espacio donde se atienden ciudadanos y ciudadanas habitante, o en riesgo de habitar calle, de 29 años en adelante, para promover el avance en procesos de inclusión social a través de acciones y estrategias en el corto y mediano plazo que permita el restablecimiento de derechos, la vinculación a redes de apoyo y la proyección de metas personales. | https://www.ideca.gov.co/recursos/mapas/atencion-integral-ciudadanos-habitantes-de-calle-bogota-dc | 
-| Censo habitantes de calle Bogotá | Conjunto de datos que recolectó el Censo de Habitantes de Calle para Bogotá 2017 (Datos no espaciales) | https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-habitantes-de-la-calle-bogota  <br> https://sitios.dane.gov.co/habitantes-calle-2018/ <br/> | 
+| Censo habitantes de calle Bogotá | Conjunto de datos que recolectó el Censo de Habitantes de Calle para Bogotá 2017 (Datos no espaciales) | https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-habitantes-de-la-calle-bogota / https://sitios.dane.gov.co/habitantes-calle-2018/ | 
 
 
 
 3. Procesamiento de datos
 
-* Descripción detallada del procesamiento  realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)
-* Idealmente incluir procesos que impliquen la utilización de las relaciones espaciales entre objetos, medidas, distancias y / o generación de geometrías.
-* Cargar los datos en el servidor postgresql / postgis asignado para la clase.
-* Listar las capas cargadas en el servidor postgresql / postgis (**Nota**: No olvide el prefijo asignado para la clase. Ejm: jc_departamentos )
+## Espacialización de datos DANE
+
+| Localidad    | Habitantes por localidad (En miles) | Porcentaje del total  | Suma de porcentaje |
+| -------------|:-------------:| :-------------:| -----:  |
+
+	
+	 	
+| Los Mártires	| 1090	| 22,91%	| 22,91% | 
+| Santafé	| 963	| 20,24%	| 43,16% | 
+| Kennedy	| 435	| 9,14%	| 52,30% |
+| Puente Aranda	| 248	| 5,21%	 | 57,52% | 
+| Ciudad Bolívar	| 216	| 4,54%	| 62,06% | 
+| Antonio Nariño	| 209	| 4,39%	| 66,45% | 
+| Engativá	| 203	| 4,27%	| 70,72% | 
+| Teusaquillo	| 202	| 4,25%	| 74,96% |
+| Rafael Uribe Uribe	| 200	| 4,20%	| 79,17% |
+| Suba	| 152	| 3,20%	| 82,36% |
+| Chapinero	| 141	| 2,96%	| 85,33% |
+| San Cristóbal	| 141	| 2,96%	| 88,29% |
+| Barrios Unidos	| 122	| 2,56%	| 90,86% |
+| Usaquén	| 97	| 2,04%	| 92,89% |
+| La Candelaria | 80	| 1,68%	| 94,58% |
+| Fontibón	| 79	| 1,66%	 | 96,24% |
+| Bosa	| 76	| 1,60%	| 97,83% |
+| Tunjuelito	| 59	 | 1,24%	| 99,08% | 
+| Usme	| 44 | 	0,92%	| 100,00% |
+| Totales	| 4757 |	100,00%	| 100,00% |
+
+
 
 4. Capa Simbología SLD
 
