@@ -192,6 +192,7 @@ Se elige publicar simbología YSLD para las localidades de Bogotá con un label 
 El código de la etiqueta YSLD generado se muestra a continuación:
 
  Código para capa localidades de Bogotá    
+| ----------:  |	 	
 |
    title: gold polygon
     symbolizers:
