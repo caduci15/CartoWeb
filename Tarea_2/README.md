@@ -106,12 +106,38 @@ En las figuras 5 y 6 se evidencia el resultado por localidad y el general de la 
   <br>Figura 6. Fuente: Propia. <br/>
 </p>
 
-Posteriormente se realiza una extracción de las coordenadas inicialmente con funciones en PostGIS, usando st_x(geom) y st_y(geom), pero al intentar realizar un update a la tabla de los valores extraídos en nuevos campos, se obtiene un error que no se entiende cómo solucionar, por lo que se deja en pausa y se procede a extraer los datos con un field calculator de QGIS como se muestra en las figuras 7 y 8. 
+Seguido a eso, se quiere validar cuáles deberían ser los flujos de migración de la población de calle hacia los centros de atención existentes. En este punto cabe resaltar que se utilizaron cuatro puntos teniendo en cuenta que existe una mayor cantidad de población concentrada en el centro de la ciudad y que los puntos de atención existentes en la zona ya están copados. Además para hacer la validación del ejercicio visual de desplazamiento que se debe efectuar con cada persona para que se pueda dar por cumplida la atención social que requieren. 
+
+Cabe destacar que esto es un ejercicio meramente académico para evidenciar la ausencia de centros de atención que suplan las necesidades de la población porque los existentes superan la capacidad instalada con la demanda requerida. 
+
+Para realizar esta prueba, se realiza una extracción de las coordenadas, inicialmente con funciones en PostGIS, usando st_x(geom) y st_y(geom), pero al intentar realizar un update a la tabla de los valores extraídos en nuevos campos, se obtiene un error que no se entiende cómo solucionar, por lo que se deja en pausa y se procede a extraer los datos con un field calculator de QGIS como se muestra en las figuras 7 y 8. 
 
 <p align="center">
   <img src="x.png" alt="x" width="400"/>     &nbsp;&nbsp;&nbsp;  <img src="y.png" alt="y" width="400"/>      
                                  <br>Figura 7 y 8. Fuente: Propia. <br/>
 </p>
+
+ 
+
+Posterior al cálculo de las coordenadas, se genera una función que extraiga el origen y el destino de los puntos y que trace una línea entre ambos, representando la distancia geodésica entre ambos (entiéndase el planteamiento geodésico de los datos y no euclidiano, teniendo en cuenta la potencial superación de kilómetros de distancia donde la curvatura de la tierra ya empieza a sentir excentricidades mayores a uno), teniendo como resultado la figura 11.
+
+La figura 10 es el resultado del proceso cuando se pensó el estudio inicialmente para las localidades con mayor concentración de población, sin embargo para el ejercicio académico de visualizar etiquetas con estilos, no es funcional, por lo que se asoció el estudio a la tercera localidad con mayor concentración y que permitía una mejor visualización de los estilos de las etiquetas. 
+
+<p align="center">
+  <img src="xytoline.PNG" alt="xytoline" width="500"/> 
+  <br>Figura 9. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+  <img src="result1.PNG" alt="result1" width="500"/> 
+  <br>Figura 10. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+  <img src="result2.PNG" alt="result2" width="500"/> 
+  <br>Figura 11. Fuente: Propia. <br/>
+</p>
+
 
 
 
