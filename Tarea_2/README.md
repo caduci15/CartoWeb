@@ -138,7 +138,24 @@ La figura 10 es el resultado del proceso cuando se pensó el estudio inicialment
   <br>Figura 11. Fuente: Propia. <br/>
 </p>
 
+Posterior a la generación de dichas distancias, se realizó una distribución de densidad de dicha población en la ciudad para validar los lugares donde debe haber más concentración de apoyo para la misma, el resultado se evidencia en la figura 12, la cual permite inferir que la mayor concentración se encuentra en el centro con una distribución radial que se expande hacia el occidente capitalino, tal como lo soportan los números. 
 
+<p align="center">
+  <img src="rasterbog.PNG" alt="rasterbog" width="500"/> 
+  <br>Figura 12. Fuente: Propia. <br/>
+</p>
+
+Se realiza además un clip al ráster sobre la capa de Bogotá (Figura 13), sin embargo, no se obtiene el resultado deseado en su totalidad, pues el corte evidencia algunos trazos que solapan la capa inicial con la que se inició el corte; esto se atribuye al software, pues se realizó el mismo procedimiento en software licenciado (ArcMap) y el resultado del clip a la capa fue bastante fino, se realizó una búsqueda de ayuda en el repositorio de QGIS pero no existe documentación al respecto, por lo que se deja el archivo de salida tal como lo genera el software (figura 14). 
+
+<p align="center">
+  <img src="raster1.png" alt="raster1" width="500"/> 
+  <br>Figura 13. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+  <img src="raster2.png" alt="raster2" width="500"/> 
+  <br>Figura 14. Fuente: Propia. <br/>
+</p>
 
 
 4. Capa Simbología SLD
