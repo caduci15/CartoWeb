@@ -124,17 +124,17 @@ Posterior al cálculo de las coordenadas, se genera una función que extraiga el
 La figura 10 es el resultado del proceso cuando se pensó el estudio inicialmente para las localidades con mayor concentración de población, sin embargo para el ejercicio académico de visualizar etiquetas con estilos, no es funcional, por lo que se asoció el estudio a la tercera localidad con mayor concentración y que permitía una mejor visualización de los estilos de las etiquetas. 
 
 <p align="center">
-  <img src="xytoline.PNG" alt="xytoline" width="500"/> 
+  <img src="xytoline.png" alt="xytoline" width="500"/> 
   <br>Figura 9. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
-  <img src="result1.PNG" alt="result1" width="500"/> 
+  <img src="result1.png" alt="result1" width="500"/> 
   <br>Figura 10. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
-  <img src="result2.PNG" alt="result2" width="500"/> 
+  <img src="result2.png" alt="result2" width="500"/> 
   <br>Figura 11. Fuente: Propia. <br/>
 </p>
 
