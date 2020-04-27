@@ -168,6 +168,8 @@ Se realiza además un clip al ráster sobre la capa de Bogotá (Figura 13), sin 
 * Las reglas de la simbología deben incluir control de escala y etiquetado. 
 * Adjuntar imagen con la leyenda de la capa.
 
+Se realizó simbología 
+
 5. Capa Simbología CSS
 
 * Publicar una de las capas utilizando simbología basada en CSS
@@ -180,12 +182,30 @@ Se realiza además un clip al ráster sobre la capa de Bogotá (Figura 13), sin 
 
 6. Capa Simbología YSLD
 
-* Publicar una de las capas utilizando simbología basada en YSLD
-* Incluir texto del YSLD en el markdown del Readme.md (Ejemplo de clase https://github.com/dersteppenwolf/cartografia_web/tree/master/06_Simbologia) 
-* Describir método utilizado para clasificar los datos.
-* Describir el criterio para la selección de los colores a utilizar en la simbología
-* Las reglas de la simbología deben incluir control de escala y etiquetado. 
-* Adjuntar imagen con la leyenda de la capa.
+Se elige publicar simbología YSLD para las localidades de Bogotá con un label en el nombre de cada una. Se piensa una diferenciación de colores por localidades, sin embargo en un principio no se logra, por lo que la capa oficialmente publicada se muestra a continuación: 
+
+<p align="center">
+  <img src="ysld.png" alt="ysld" width="500"/> 
+  <br>Figura xx. Fuente: Propia. <br/>
+</p>
+
+El código de la etiqueta YSLD generado se muestra a continuación:
+
+| Código para capa localidades de Bogotá    | Localización |
+| -------------| -----:  |	 	
+|title: gold polygon
+symbolizers:
+- polygon:
+    stroke-width: 0.3
+    stroke-color: '#000000'
+    fill-color: '#ffffff'
+- text:
+    label: ${locnombre}
+    fill-color: 'black'
+    anchor: [0.5, 0.5]
+    x-maxDisplacement: 40
+    x-autoWrap: 70| http://34.83.176.208:18080/geoserver/web/wicket/bookmarkable/org.geoserver.wms.web.data.StyleEditPage?0&name=bogota&workspace=clase_2020_01 |
+
 
 
 7. Grupo de capas
