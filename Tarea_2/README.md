@@ -194,11 +194,11 @@ El código de la etiqueta YSLD generado se muestra a continuación:
  Código para capa localidades de Bogotá    
 	 	
 |   title: gold polygonsymbolizers:
-    - polygon:
-    stroke-width: 0.3
-    stroke-color: '#000000'
-    fill-color: '#ffffff'
-    - text:
+ - polygon:
+ stroke-width: 0.3
+ stroke-color: '#000000'
+ fill-color: '#ffffff'
+  - text:
     label: ${locnombre}
     fill-color: 'black'
     anchor: [0.5, 0.5]
