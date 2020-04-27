@@ -191,21 +191,20 @@ Se elige publicar simbología YSLD para las localidades de Bogotá con un label 
 
 El código de la etiqueta YSLD generado se muestra a continuación:
 
-| Código para capa localidades de Bogotá    | Localización |
-| -------------| -----:  |	 	
-|title: gold polygon
-<br>symbolizers:<br>
-<br>- polygon:<br>
+| Código para capa localidades de Bogotá    |
+| -------------|
+|   title: gold polygon
+    symbolizers:
+    - polygon:
     stroke-width: 0.3
     stroke-color: '#000000'
     fill-color: '#ffffff'
-- text:
+    - text:
     label: ${locnombre}
     fill-color: 'black'
     anchor: [0.5, 0.5]
     x-maxDisplacement: 40
-    x-autoWrap: 70| http://34.83.176.208:18080/geoserver/web/wicket/bookmarkable/org.geoserver.wms.web.data.StyleEditPage?0&name=bogota&workspace=clase_2020_01 |
-
+    x-autoWrap: 70|
 
 
 7. Grupo de capas
