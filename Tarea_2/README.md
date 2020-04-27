@@ -191,22 +191,11 @@ Se elige publicar simbología YSLD para las localidades de Bogotá con un label 
 
 El código de la etiqueta YSLD generado se muestra a continuación:
 
- Código para capa localidades de Bogotá    
-| ----------:  |	 	
-|
-   title: gold polygon
-    symbolizers:
-    - polygon:
-    stroke-width: 0.3
-    stroke-color: '#000000'
-    fill-color: '#ffffff'
-    - text:
-    label: ${locnombre}
-    fill-color: 'black'
-    anchor: [0.5, 0.5]
-    x-maxDisplacement: 40
-    x-autoWrap: 70|
-|
+| Código                                                                                                                                                                                                                                                                                                |   |   |   |   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|---|
+| StartFragment|title: gold polygon symbolizers:      - polygon:      stroke-width: 0.3      stroke-color: '#000000'      fill-color: '#ffffff'      - text:      label: ${locnombre}      fill-color: 'black'      anchor: [0.5, 0.5]      x-maxDisplacement: 40      x-autoWrap: 70|  |   EndFragment |   |   |   |   |
+|                                                                                                                                                                                                                                                                                                       |   |   |   |   |
+|                                                                                                                                                                                                                                                                                                       |   |   |   |   |
 
 7. Grupo de capas
 
