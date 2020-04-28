@@ -1,5 +1,5 @@
 
-## 1.  Definición del problema 
+# 1.  Definición del problema 
 
 # Estudio de atención a población en situación de calle en Bogotá D.C. 
 
@@ -33,7 +33,7 @@ Fuente: IDECA, Bogotá.
 </p>
 
 
-2.  Fuentes de datos
+# 2.  Fuentes de datos
 
 Los conjuntos de datos que se usaron para el ejercicio, no todos obedecen a datos con geometrías, como es el caso del Censo del DANE, esos datos fueron espacializados con procedimiento que se explica más detalladamente adelante. 
 
@@ -47,7 +47,7 @@ Los demás se listan a continuación:
 
 
 
-3. Procesamiento de datos
+# 3. Procesamiento de datos
 
 ## Espacialización de datos DANE
 
@@ -138,39 +138,64 @@ La figura 10 es el resultado del proceso cuando se pensó el estudio inicialment
   <br>Figura 11. Fuente: Propia. <br/>
 </p>
 
-Posterior a la generación de dichas distancias, se realizó una distribución de densidad de dicha población en la ciudad para validar los lugares donde debe haber más concentración de apoyo para la misma, el resultado se evidencia en la figura 12, la cual permite inferir que la mayor concentración se encuentra en el centro con una distribución radial que se expande hacia el occidente capitalino, tal como lo soportan los números. 
+Posterior a la generación de dichas distancias, se realizó una distribución de densidad de dicha población en la ciudad para validar los lugares donde debe haber más concentración de apoyo para la misma, el resultado se evidencia en los puntos opcionales, la cual se analizará más adelante. 
+
+Para generar la simbología que se muestra en los siguientes puntos, se debió realizar un cargue de información al servidor dispuesto en PostGIS y posteriormente a Geoserver, para el cargue a PostGIS se debió realizar la importación de las capas respectivas a la bde como muestra la imagen a continuación: 
 
 <p align="center">
-  <img src="rasterbog.PNG" alt="rasterbog" width="500"/> 
-  <br>Figura 12. Fuente: Propia. <br/>
+  <img src="importlayer.png" alt="importlayer" width="400"/>     &nbsp;&nbsp;&nbsp;  <img src="vectorlayer.png" alt="vectorlayer" width="400"/>      
+                                 <br>Figura 12 y 13. Fuente: Propia. <br/>
 </p>
 
-Se realiza además un clip al ráster sobre la capa de Bogotá (Figura 13), sin embargo, no se obtiene el resultado deseado en su totalidad, pues el corte evidencia algunos trazos que solapan la capa inicial con la que se inició el corte; esto se atribuye al software, pues se realizó el mismo procedimiento en software licenciado (ArcMap) y el resultado del clip a la capa fue bastante fino, se realizó una búsqueda de ayuda en el repositorio de QGIS pero no existe documentación al respecto, por lo que se deja el archivo de salida tal como lo genera el software (figura 14). 
+Posteriormente se procede a realizar la publicación de las capas en Geoserver. (Figura 14)
 
 <p align="center">
-  <img src="raster1.png" alt="raster1" width="500"/> 
-  <br>Figura 13. Fuente: Propia. <br/>
-</p>
-
-<p align="center">
-  <img src="raster2.png" alt="raster2" width="500"/> 
+  <img src="capas.png" alt="capas" width="500"/> 
   <br>Figura 14. Fuente: Propia. <br/>
 </p>
 
 
-4. Capa Simbología SLD
 
-* Publicar una de las capas utilizando simbología basada en SLD
-* Si utiliza QGIS para generar el SLD, favor mencionar brevemente el proceso realizado. 
-* Incluir texto del SLD en el markdown del Readme.md (Ejemplo de clase https://github.com/dersteppenwolf/cartografia_web/tree/master/06_Simbologia) 
-* Describir método utilizado para clasificar los datos.
-* Describir el criterio para la selección de los colores a utilizar en la simbología
-* Las reglas de la simbología deben incluir control de escala y etiquetado. 
-* Adjuntar imagen con la leyenda de la capa.
+# 4. Capa Simbología SLD
 
-Se realizó simbología 
 
-5. Capa Simbología CSS
+Se realizó simbología SLD generada desde QGIS para la capa de migración de habitantes para centros de atención. 
+
+El código empleado se muestra a continuación, junto con la simbología generada a partir del mismo: 
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
+  <NamedLayer>
+    <se:Name>atencionlineal</se:Name>
+    <UserStyle>
+      <se:Name>atencionlineal</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>Single symbol</se:Name>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#487bb6</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">2 7</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
+
+<p align="center">
+  <img src="SLD.PNG" alt="SLD" width="500"/> 
+  <br>Figura 14. Fuente: Propia. <br/>
+</p>
+
+Esta, a la vez se asocia con la capa que se denomina "atención lineal" en geoserver. 
+
+# 5. Capa Simbología CSS
 
 * Publicar una de las capas utilizando simbología basada en CSS
 * Incluir texto del CSS en el markdown del Readme.md (Ejemplo de clase https://github.com/dersteppenwolf/cartografia_web/tree/master/06_Simbologia) 
@@ -180,7 +205,7 @@ Se realizó simbología
 * Adjuntar imagen con la leyenda de la capa.
 
 
-6. Capa Simbología YSLD
+# 6. Capa Simbología YSLD
 
 Se elige publicar simbología YSLD para las localidades de Bogotá con un label en el nombre de cada una. Se piensa una diferenciación de colores por localidades, sin embargo en un principio no se logra, por lo que la capa oficialmente publicada se muestra a continuación: 
 
@@ -207,7 +232,7 @@ El código de la etiqueta YSLD generado se muestra a continuación:
 ```
 Posteriomente se comprende que la simbología empleada es útil para la publicación posterior del grouplayer que se muestra en el punto 7. 
 
-7. Grupo de capas
+# 7. Grupo de capas
 
 En este punto se incluyen tres capas: se incluyen cuatro capas: 
 
@@ -221,7 +246,7 @@ La implementación de la solución se muestra a continuación:
 </p>
 
 
-8.  Conclusiones 
+# 8.  Conclusiones 
 
 * Publicar un video en Loom ( https://www.loom.com/ ) de mínimo 5 minutos y máximo 8  donde describa brevemente lo siguiente:
 * Problema planteado
@@ -232,7 +257,57 @@ La implementación de la solución se muestra a continuación:
 * **Importante**  en el video debe quedar activa la cámara web durante todo el tiempo. Ejemplo: https://www.loom.com/share/9e89602fed3d40ff9cd3b79759ffce50
 <img src="img/loom.png" width="600"/>
 
-edad mínima 
-y el resto?
+# Opcionales
+
+## Mapbox
+
+Se crea un mapa base que cumpla con las condiciones de visualización del proyecto en mención, para ello se elige Mapbox como elemento para la creación de éste, se realiza una creación sobre un lona gris oscuro, pero se le realiza una personalización quitándole todas las etiquetas, llevando el gris oscuro a negro y quitándole el ruido que genera para la visualización de la capa como se desea. El resultado en la figura a continuación: 
+
+<p align="center">
+  <img src="mapbox.png" alt="mapbox" width="500"/> 
+  <br>Figura xx. Fuente: Propia. <br/>
+</p>
+
+Posterior a la realización del mapa base, se procede a realizar la publicación del mismo y a dejarlo como espacio de trabajo público para poder importarlo como mapa base a QGIS. 
+
+<p align="center">
+  <img src="wms.png" alt="wms" width="500"/> 
+  <br>Figura xx. Fuente: Propia. <br/>
+</p>
+
+Se procede a descargar el Plugin que permitirá la visualización de dicho mapa en QGIS (QuickMapServices) y a cargar el servicio como un WMTS, el resultado se evidencia a continuación: 
+
+<p align="center">
+  <img src="wmscapa.png" alt="wmscapa" width="500"/> 
+  <br>Figura xx. Fuente: Propia. <br/>
+</p>
+
+El enlace de consulta de mapa base generado, a continuación: 
+
+https://api.mapbox.com/styles/v1/catherineduarte1/ck9j7n1j00jq01inhd4i1nlos/wmts?access_token=pk.eyJ1IjoiY2F0aGVyaW5lZHVhcnRlMSIsImEiOiJjazlqNnF4anUwNGkyM2xtcG54emJ3ZGViIn0.3UzR_db2q6nUvy5_oDwZYw
+
+## Ráster 
+
+El ráster de salida permite generar clústeres de concentración de población en situación de calle en Bogotá, adempas permite inferir que la mayor concentración se encuentra en el centro con una distribución radial que se expande hacia el occidente capitalino, tal como lo soportan los números. Dichos resultados se evidencian en la siguiente figura. 
+
+<p align="center">
+  <img src="rasterbog.PNG" alt="rasterbog" width="500"/> 
+  <br>Figura 12. Fuente: Propia. <br/>
+</p>
+
+Se realiza además un clip al ráster sobre la capa de Bogotá (Figura 13), sin embargo, no se obtiene el resultado deseado en su totalidad, pues el corte evidencia algunos trazos que solapan la capa inicial con la que se inició el corte; esto se atribuye al software, pues se realizó el mismo procedimiento en software licenciado (ArcMap) y el resultado del clip a la capa fue bastante fino, se realizó una búsqueda de ayuda en el repositorio de QGIS pero no existe documentación al respecto, por lo que se deja el archivo de salida tal como lo genera el software (figura 14). 
+
+<p align="center">
+  <img src="raster1.png" alt="raster1" width="500"/> 
+  <br>Figura 13. Fuente: Propia. <br/>
+</p>
+
+<p align="center">
+  <img src="raster2.png" alt="raster2" width="500"/> 
+  <br>Figura 14. Fuente: Propia. <br/>
+</p>
+
+Los datos son publicados en geoserver con los siguientes enlaces de consulta: 
+
 
 
