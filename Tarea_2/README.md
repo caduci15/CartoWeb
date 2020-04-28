@@ -164,7 +164,6 @@ Se realizó simbología SLD generada desde QGIS para la capa de migración de ha
 El código empleado se muestra a continuación, junto con la simbología generada a partir del mismo: 
 
 
-
 ```<?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
@@ -189,22 +188,62 @@ El código empleado se muestra a continuación, junto con la simbología generad
   </NamedLayer>
 </StyledLayerDescriptor>
 
+```
+
 <p align="center">
   <img src="SLD.PNG" alt="SLD" width="500"/> 
-  <br>Figura 14. Fuente: Propia. <br/>
+  <br>Figura 15. Fuente: Propia. <br/>
 </p>
-```
+
 
 Esta, a la vez se asocia con la capa que se denomina "atención lineal" en geoserver. 
 
 # 5. Capa Simbología CSS
 
-* Publicar una de las capas utilizando simbología basada en CSS
-* Incluir texto del CSS en el markdown del Readme.md (Ejemplo de clase https://github.com/dersteppenwolf/cartografia_web/tree/master/06_Simbologia) 
-* Describir método utilizado para clasificar los datos.
-* Describir el criterio para la selección de los colores a utilizar en la simbología
-* Las reglas de la simbología deben incluir control de escala y etiquetado. 
-* Adjuntar imagen con la leyenda de la capa.
+Se realizó simbología CSS generada desde geoserver para la capa de centros de atención en Bogotá.  
+
+El código empleado se muestra a continuación, junto con la simbología generada a partir del mismo: 
+
+<p align="center">
+  <img src="css.PNG" alt="css" width="500"/> 
+  <br>Figura 16. Fuente: Propia. <br/>
+</p>
+
+```
+* {
+   mark: symbol(circle);
+   mark-size: 6px;
+   label: [ossnombre];
+   font-fill: black;
+   font-family: Arial;
+   font-size: 10;
+   font-weight: bold;
+   label-anchor: 0.5 0;
+   label-offset: 0 3;
+   :mark {
+     fill: red;
+   }
+
+ }
+
+ :mark {
+   stroke: black;
+   stroke-width: 2px;
+   fill: yellow;
+ }
+
+ [@sd < 0.2M] {
+   mark-size: 8;
+ }
+
+ [@sd > 1.6M] [@sd < 32M] {
+   mark-size: 4;
+ }
+
+             [@sd > 3.2M] {
+   mark-size: 2;
+ }
+```
 
 
 # 6. Capa Simbología YSLD
@@ -213,7 +252,7 @@ Se elige publicar simbología YSLD para las localidades de Bogotá con un label 
 
 <p align="center">
   <img src="ysld.png" alt="ysld" width="500"/> 
-  <br>Figura xx. Fuente: Propia. <br/>
+  <br>Figura 17. Fuente: Propia. <br/>
 </p>
 
 El código de la etiqueta YSLD generado se muestra a continuación:
@@ -244,7 +283,7 @@ La implementación de la solución se muestra a continuación:
 
 <p align="center">
   <img src="grouplayer.PNG" alt="grouplayer" width="500"/> 
-  <br>Figura xx. Fuente: Propia. <br/>
+  <br>Figura 18. Fuente: Propia. <br/>
 </p>
 
 
@@ -267,21 +306,21 @@ Se crea un mapa base que cumpla con las condiciones de visualización del proyec
 
 <p align="center">
   <img src="mapbox.png" alt="mapbox" width="500"/> 
-  <br>Figura xx. Fuente: Propia. <br/>
+  <br>Figura 19. Fuente: Propia. <br/>
 </p>
 
 Posterior a la realización del mapa base, se procede a realizar la publicación del mismo y a dejarlo como espacio de trabajo público para poder importarlo como mapa base a QGIS. 
 
 <p align="center">
   <img src="wms.png" alt="wms" width="500"/> 
-  <br>Figura xx. Fuente: Propia. <br/>
+  <br>Figura 20. Fuente: Propia. <br/>
 </p>
 
 Se procede a descargar el Plugin que permitirá la visualización de dicho mapa en QGIS (QuickMapServices) y a cargar el servicio como un WMTS, el resultado se evidencia a continuación: 
 
 <p align="center">
   <img src="wmscapa.png" alt="wmscapa" width="500"/> 
-  <br>Figura xx. Fuente: Propia. <br/>
+  <br>Figura 21. Fuente: Propia. <br/>
 </p>
 
 El enlace de consulta de mapa base generado, a continuación: 
@@ -294,22 +333,23 @@ El ráster de salida permite generar clústeres de concentración de población 
 
 <p align="center">
   <img src="rasterbog.PNG" alt="rasterbog" width="500"/> 
-  <br>Figura 12. Fuente: Propia. <br/>
+  <br>Figura 22. Fuente: Propia. <br/>
 </p>
 
 Se realiza además un clip al ráster sobre la capa de Bogotá (Figura 13), sin embargo, no se obtiene el resultado deseado en su totalidad, pues el corte evidencia algunos trazos que solapan la capa inicial con la que se inició el corte; esto se atribuye al software, pues se realizó el mismo procedimiento en software licenciado (ArcMap) y el resultado del clip a la capa fue bastante fino, se realizó una búsqueda de ayuda en el repositorio de QGIS pero no existe documentación al respecto, por lo que se deja el archivo de salida tal como lo genera el software (figura 14). 
 
 <p align="center">
   <img src="raster1.png" alt="raster1" width="500"/> 
-  <br>Figura 13. Fuente: Propia. <br/>
+  <br>Figura 23. Fuente: Propia. <br/>
 </p>
 
 <p align="center">
   <img src="raster2.png" alt="raster2" width="500"/> 
-  <br>Figura 14. Fuente: Propia. <br/>
+  <br>Figura 24. Fuente: Propia. <br/>
 </p>
 
 Los datos son publicados en geoserver con los siguientes enlaces de consulta: 
+
 
 
 
