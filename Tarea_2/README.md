@@ -163,6 +163,7 @@ Se realizó simbología SLD generada desde QGIS para la capa de migración de ha
 
 El código empleado se muestra a continuación, junto con la simbología generada a partir del mismo: 
 
+´´´
 
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
@@ -192,7 +193,7 @@ El código empleado se muestra a continuación, junto con la simbología generad
   <img src="SLD.PNG" alt="SLD" width="500"/> 
   <br>Figura 14. Fuente: Propia. <br/>
 </p>
-
+´´´
 Esta, a la vez se asocia con la capa que se denomina "atención lineal" en geoserver. 
 
 # 5. Capa Simbología CSS
