@@ -289,7 +289,7 @@ La implementación de la solución se muestra a continuación:
 
 # 8.  Conclusiones 
 
-A continuación el enlace de Loom: 
+A continuación el video solicitado: 
 
 https://www.loom.com/share/07ffa7fce250444a84b3066a5decbcd0
 
