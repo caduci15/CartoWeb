@@ -289,14 +289,9 @@ La implementación de la solución se muestra a continuación:
 
 # 8.  Conclusiones 
 
-* Publicar un video en Loom ( https://www.loom.com/ ) de mínimo 5 minutos y máximo 8  donde describa brevemente lo siguiente:
-* Problema planteado
-* Procesamiento y análisis realizado a los datos
-* Proceso de publicación de capas 
-* Conclusiones del ejercicio desde el punto de vista temático según el problema definido. 
-* Tutorial de loom https://support.loom.com/hc/en-us/articles/360006847737-Guide-to-Using-Loom-for-Education
-* **Importante**  en el video debe quedar activa la cámara web durante todo el tiempo. Ejemplo: https://www.loom.com/share/9e89602fed3d40ff9cd3b79759ffce50
-<img src="img/loom.png" width="600"/>
+A continuación el enlace de Loom: 
+
+https://www.loom.com/share/07ffa7fce250444a84b3066a5decbcd0
 
 # Opcionales
 
