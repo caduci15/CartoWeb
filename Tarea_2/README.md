@@ -3,9 +3,9 @@
 
 # Estudio de atención a población en situación de calle en Bogotá D.C. 
 
-La población en situación de calle en Bogotá alcanza a ser de casi 7.000 habitantes (DANE, 2017), los cuales representan el 0,9% de la población total de la ciudad; sin embargo, a dcha población se le mantiene en un rezago político-social que no es pertinente ni idóneo pensando que la drogadicción, al igual que otras problemáticas sociales, desencadenan inexorablemente en problemas de salud pública. 
+La población en situación de calle en Bogotá alcanza a ser de casi 7.000 habitantes (DANE, 2017), los cuales representan el 0,9% de la población total de la ciudad; sin embargo, a dicha población se le mantiene en un rezago político-social que no es pertinente ni idóneo pensando que la drogadicción, al igual que otras problemáticas sociales, desencadenan inexorablemente en problemas de salud pública. 
 
-Es por eso, que este estudio, busca por un lado, mapear el último Censo de Habitantes de calle que realizó el DANE en Bogotá (2017) para dar cuenta de la distribución de dichsa población en la ciudad, además busca relacionar cada habitante con un centro u hogar de paso de los once (11) disponibles que tiene el distrito para su atención. Con esto, se busca además evidenciar que los centros existentes no son suficientes para atender dicha población. 
+Es por eso, que este estudio, busca por un lado, mapear el último Censo de Habitantes de calle que realizó el DANE en Bogotá (2017) para dar cuenta de la distribución de dicha población en la ciudad, además busca relacionar cada habitante con un centro u hogar de paso de los once (11) disponibles que tiene el distrito para su atención. Con esto, se busca además evidenciar que los centros existentes no son suficientes para atender dicha población. 
 
 A continuación se listan los centros de atención disponibles para el habitante de calle y la población objeto de estudio según las cifras del censo: 
 
@@ -77,7 +77,7 @@ Para proceder a la espacialización de loa datos, se consolidó primero una tabl
 | Totales	| 4757 |	100,00%	| 100,00% |
 *Aquí cabe destacar que hay un porcentaje que no se cuenta en los datos espacializados y son los 2.189 habitantes que ya están censados y debidamnete ubicados en centros de atención especializados.
 
-Después de la tabulación, se procede a realizar una generación de puntos aleatorios por localidad como se muestra en las siguientes figuras, se realiza el proceso en las 19 localidades para demostrar visualmente la alta inmersión de población en condición de calle en la ciudad; sin embargo, para efectos del ejercicio práctico, solo se trabajará con la localidad de Kennedy que es la tercera en densidad poblaciones y permite visualizar una mejor distribución de los datos. 
+Después de la tabulación, se procede a realizar una generación de puntos aleatorios por localidad como se muestra en las siguientes figuras, se realiza el proceso en las 19 localidades para demostrar visualmente la alta inmersión de población en condición de calle en la ciudad; sin embargo, para efectos del ejercicio práctico, solo se trabajará con la localidad de Kennedy que es la tercera en densidad poblacional y permite visualizar una mejor distribución de los datos. 
 
 <p align="center">
   <img src="procesoa.png" alt="procesoa" width="500"/> 
@@ -108,7 +108,7 @@ En las figuras 5 y 6 se evidencia el resultado por localidad y el general de la 
 
 Seguido a eso, se quiere validar cuáles deberían ser los flujos de migración de la población de calle hacia los centros de atención existentes. En este punto cabe resaltar que se utilizaron cuatro puntos teniendo en cuenta que existe una mayor cantidad de población concentrada en el centro de la ciudad y que los puntos de atención existentes en la zona ya están copados. Además para hacer la validación del ejercicio visual de desplazamiento que se debe efectuar con cada persona para que se pueda dar por cumplida la atención social que requieren. 
 
-Cabe destacar que esto es un ejercicio meramente académico para evidenciar la ausencia de centros de atención que suplan las necesidades de la población porque los existentes superan la capacidad instalada con la demanda requerida. 
+Cabe destacar que esto es un ejercicio meramente académico para evidenciar la ausencia de centros de atención que suplan las necesidades de la población porque los existentes superan la capacidad instalada contra la demanda requerida. 
 
 Para realizar esta prueba, se realiza una extracción de las coordenadas, inicialmente con funciones en PostGIS, usando st_x(geom) y st_y(geom), pero al intentar realizar un update a la tabla de los valores extraídos en nuevos campos, se obtiene un error que no se entiende cómo solucionar, por lo que se deja en pausa y se procede a extraer los datos con un field calculator de QGIS como se muestra en las figuras 7 y 8. 
 
@@ -275,7 +275,7 @@ Posteriomente se comprende que la simbología empleada es útil para la publicac
 
 # 7. Grupo de capas
 
-En este punto se incluyen tres capas: se incluyen cuatro capas: 
+En este punto se incluyen tres capas:
 
 Se emplea la capa de localidades de Bogotá, se incluye además la población en situación de calle distribuida en toda la ciudad y la localización de los centros de atención que ofrecen cobertura en ésta. 
 
@@ -291,13 +291,13 @@ La implementación de la solución se muestra a continuación:
 
 A continuación el video solicitado: 
 
-https://www.loom.com/share/07ffa7fce250444a84b3066a5decbcd0
+https://www.loom.com/share/21229ce9c51b4887ac9b6011f76e6224
 
 # Opcionales
 
 ## Mapbox
 
-Se crea un mapa base que cumpla con las condiciones de visualización del proyecto en mención, para ello se elige Mapbox como elemento para la creación de éste, se realiza una creación sobre un lona gris oscuro, pero se le realiza una personalización quitándole todas las etiquetas, llevando el gris oscuro a negro y quitándole el ruido que genera para la visualización de la capa como se desea. El resultado en la figura a continuación: 
+Se crea un mapa base que cumpla con las condiciones de visualización del proyecto en mención, para ello se elige Mapbox como elemento para la creación de éste, se realiza una plantilla sobre un lona gris oscuro, pero se le realiza una personalización quitándole todas las etiquetas, llevando el gris oscuro a negro y quitándole el ruido que genera para la visualización de la capa como se desea. El resultado en la figura a continuación: 
 
 <p align="center">
   <img src="mapbox.png" alt="mapbox" width="500"/> 
@@ -324,7 +324,7 @@ https://api.mapbox.com/styles/v1/catherineduarte1/ck9j7n1j00jq01inhd4i1nlos/wmts
 
 ## Ráster 
 
-El ráster de salida permite generar clústeres de concentración de población en situación de calle en Bogotá, adempas permite inferir que la mayor concentración se encuentra en el centro con una distribución radial que se expande hacia el occidente capitalino, tal como lo soportan los números. Dichos resultados se evidencian en la siguiente figura. 
+El ráster de salida permite generar clústeres de concentración de población en situación de calle en Bogotá, además permite inferir que la mayor concentración se encuentra en el centro con una distribución radial que se expande hacia el occidente capitalino, tal como lo soportan los números. Dichos resultados se evidencian en la siguiente figura. 
 
 <p align="center">
   <img src="rasterbog.PNG" alt="rasterbog" width="500"/> 
