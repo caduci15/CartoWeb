@@ -193,7 +193,8 @@ El código empleado se muestra a continuación, junto con la simbología generad
   <img src="SLD.PNG" alt="SLD" width="500"/> 
   <br>Figura 14. Fuente: Propia. <br/>
 </p>
-´´´
+```
+
 Esta, a la vez se asocia con la capa que se denomina "atención lineal" en geoserver. 
 
 # 5. Capa Simbología CSS
