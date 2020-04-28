@@ -205,11 +205,20 @@ El código de la etiqueta YSLD generado se muestra a continuación:
     x-maxDisplacement: 40
     x-autoWrap: 70|
 ```
+Posteriomente se comprende que la simbología empleada es útil para la publicación posterior del grouplayer que se muestra en el punto 7. 
 
 7. Grupo de capas
 
-* Crear un **layer group** ( https://docs.geoserver.org/stable/en/user/data/webadmin/layergroups.html  ) que contenga las capas creadas en los puntos _4, 5 y 6_ y las adicionales que considere necesarias para darle contexto a la visualización (ejm. límites departamentales, límites municipales, límites internacionales, etc)
-* Adjuntar el url de la previsualización _openlayers_ del conjunto de capas generada por Geoserver. Ejemplo: http://34.83.176.208:18080/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=tiger-ny&bbox=-74.047185%2C40.679648%2C-73.907005%2C40.882078&width=531&height=768&srs=EPSG%3A4326&format=application/openlayers 
+En este punto se incluyen tres capas: se incluyen cuatro capas: 
+
+Se emplea la capa de localidades de Bogotá, se incluye además la población en situación de calle distribuida en toda la ciudad y la localización de los centros de atención que ofrecen cobertura en ésta. 
+
+La implementación de la solución se muestra a continuación:
+
+<p align="center">
+  <img src="grouplayer.PNG" alt="grouplayer" width="500"/> 
+  <br>Figura xx. Fuente: Propia. <br/>
+</p>
 
 
 8.  Conclusiones 
