@@ -345,6 +345,14 @@ Se realiza además un clip al ráster sobre la capa de Bogotá (Figura 13), sin 
 
 Los datos son publicados en geoserver con los siguientes enlaces de consulta: 
 
+http://34.83.176.208:18080/geoserver/clase_2020_01/wms?service=WMS&version=1.1.0&request=GetMap&layers=clase_2020_01%3Acd_cortebog&bbox=983861.269%2C963897.9515%2C1010027.7305%2C1026532.0619&width=330&height=768&srs=EPSG%3A3116&format=application/openlayers
+
+La publicación final del servicio como sigue:
+
+<p align="center">
+  <img src="rasterpublicado.png" alt="rasterpublicado" width="500"/> 
+  <br>Figura 24. Fuente: Propia. <br/>
+</p>
 
 
 
