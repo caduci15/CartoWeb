@@ -350,7 +350,7 @@ http://34.83.176.208:18080/geoserver/clase_2020_01/wms?service=WMS&version=1.1.0
 La publicación final del servicio como sigue:
 
 <p align="center">
-  <img src="rasterpublicado.png" alt="rasterpublicado" width="500"/> 
+  <img src="rasterpublicado.PNG" alt="rasterpublicado" width="500"/> 
   <br>Figura 24. Fuente: Propia. <br/>
 </p>
 
